@@ -392,6 +392,60 @@
         <button name="7EWSProgGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>1:ahk&lt;:1LP4^7EWSProgTwo|2:ahk&lt;:1LP4^7EWSProgFour|3:ahk&lt;:1LP4^7EWSProgOne|4:ahk&lt;:1LP4^7EWSProgThree</code>
         </button>
+        <button name="8EWSModeOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send  {a}</code>
+          <script>return '8EWSModeLabel[@]switchAndKnob/knob5Left.png'</script>
+        </button>
+        <button name="8EWSModeStby" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {a}</code>
+          <script>return '8EWSModeLabel[@]switchAndKnob/knob5Up.png'</script>
+        </button>
+        <button name="8EWSModeMan" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {a}</code>
+          <script>return '8EWSModeLabel[@]switchAndKnob/knob5Right.png'</script>
+        </button>
+        <button name="8EWSModeSemi" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {a}</code>
+          <script>return '8EWSModeLabel[@]switchAndKnob/knob5DownRight.png'</script>
+        </button>
+        <button name="8EWSModeAuto" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {a}</code>
+          <script>return '8EWSModeLabel[@]switchAndKnob/knob5Down.png'</script>
+        </button>
+        <button name="8EWSModeByp" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {a}</code>
+          <script>return '8EWSModeLabel[@]switchAndKnob/knob5DownLeft.png'</script>
+        </button>
+        <button name="8EWSModeLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="8EWSModeGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:1LP4^8EWSModeStby|2:ahk&lt;:1LP4^8EWSModeAuto|3:ahk&lt;:1LP4^8EWSModeOff|4:ahk&lt;:1LP4^8EWSModeMan|7:ahk&lt;:1LP4^8EWSModeSemi</code>
+        </button>
+      </buttons>
+    </device>
+    <device name="1LP5">
+      <buttons>
+        <button name="1BUPUHFOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {a}</code>
+          <script>return '1BUPUHFLabel[@]switchAndKnob/knob1Left.png'</script>
+        </button>
+        <button name="1BUPUHFMain" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {a}</code>
+          <script>return '1BUPUHFLabel[@]switchAndKnob/knob1Up.png'</script>
+        </button>
+        <button name="1BUPUHFBoth" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {a}</code>
+          <script>return '1BUPUHFLabel[@]switchAndKnob/knob1Right.png'</script>
+        </button>
+        <button name="1BUPUHFLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="1BUPUHFGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:1LP5^1BUPUHFMain|3:ahk&lt;:1LP5^1BUPUHFOff|4:ahk&lt;:1LP5^1BUPUHFBoth</code>
+        </button>
       </buttons>
     </device>
   </devices>
