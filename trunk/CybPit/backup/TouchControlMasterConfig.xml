@@ -446,6 +446,21 @@
         <button name="1BUPUHFGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>1:ahk&lt;:1LP5^1BUPUHFMain|3:ahk&lt;:1LP5^1BUPUHFOff|4:ahk&lt;:1LP5^1BUPUHFBoth</code>
         </button>
+        <button name="2BUPUHFPreset" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {a}</code>
+          <script>return '2BUPUHFLabel2[@]switchAndKnob/knob1Up.png'</script>
+        </button>
+        <button name="2BUPUHFGuard" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {a}</code>
+          <script>return '2BUPUHFLabel2[@]switchAndKnob/knob1Right.png'</script>
+        </button>
+        <button name="2BUPUHFLabel2" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="2BUPUHFGP2" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:1LP5^2BUPUHFPreset|4:ahk&lt;:1LP5^2BUPUHFGuard</code>
+        </button>
       </buttons>
     </device>
   </devices>
