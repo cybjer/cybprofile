@@ -228,85 +228,85 @@
       </device>
       <device name="0MainButtons">
         <buttons>
-          <button name="04RightPanel" type="link" top="0" left="771" textPosition="off" textSize="medium" textColor="" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/04RightPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^04RightPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+          <button name="04RightPanel" type="link" top="0" left="771" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/04RightPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^04RightPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
             <code>
             </code>
           </button>
-          <button name="03MFDPanel" type="link" top="0" left="515" textPosition="off" textSize="medium" textColor="" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/03MFDPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^03CenterMFDPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
+          <button name="03MFDPanel" type="link" top="0" left="516" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/03MFDPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^03CenterMFDPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
             <code>
             </code>
           </button>
-          <button name="LabelDisabled" type="label" top="0" left="5" textPosition="on" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanel.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
+          <button name="LabelDisabled" type="label" top="0" left="6" textPosition="on" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanel.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
             <code>
             </code>
           </button>
-          <button name="02CenterUpPanel" type="link" top="0" left="260" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^02CenterPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
-            <code>
-            </code>
-          </button>
-        </buttons>
-      </device>
-    </activity>
-    <activity name="02CenterPanel" location="CybPit" active="yes" mousekeyboard="no" index="0" deviceType="1" background="2CenterPanel.png" image="touchcontrol_remote_CybPit^02CenterPanel.jpg">
-      <device name="0MainButtons">
-        <buttons>
-          <button name="04RightPanel" type="link" top="1" left="774" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/04RightPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^04RightPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
-            <code>
-            </code>
-          </button>
-          <button name="03MFDPanel" type="link" top="1" left="519" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/03MFDPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^03CenterMFDPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
-            <code>
-            </code>
-          </button>
-          <button name="LabelDisabled" type="label" top="1" left="263" textPosition="on" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanel.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
-            <code>
-            </code>
-          </button>
-          <button name="01LeftPanel" type="link" top="1" left="7" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^01LeftPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
+          <button name="02CenterUpPanel" type="link" top="0" left="261" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^02CenterPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
             <code>
             </code>
           </button>
         </buttons>
       </device>
     </activity>
-    <activity name="03CenterMFDPanel" location="CybPit" active="yes" mousekeyboard="no" index="0" deviceType="1" background="2CenterPanel.png" image="touchcontrol_remote_CybPit^03CenterMFDPanel.jpg">
+    <activity name="02CenterPanel" location="CybPit" active="no" mousekeyboard="no" index="0" deviceType="1" background="2CenterPanel.png" image="touchcontrol_remote_CybPit^02CenterPanel.jpg">
       <device name="0MainButtons">
         <buttons>
-          <button name="04RightPanel" type="link" top="1" left="773" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/04RightPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^04RightPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+          <button name="04RightPanel" type="link" top="0" left="770" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/04RightPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^04RightPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
             <code>
             </code>
           </button>
-          <button name="02CenterUpPanel" type="link" top="1" left="263" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^02CenterPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
+          <button name="03MFDPanel" type="link" top="0" left="515" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/03MFDPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^03CenterMFDPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
             <code>
             </code>
           </button>
-          <button name="01LeftPanel" type="link" top="1" left="8" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^01LeftPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
+          <button name="LabelDisabled" type="label" top="0" left="260" textPosition="on" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanel.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
             <code>
             </code>
           </button>
-          <button name="LabelDisabled" type="label" top="1" left="518" textPosition="on" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/03MFDPanel.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
+          <button name="01LeftPanel" type="link" top="0" left="5" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^01LeftPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
             <code>
             </code>
           </button>
         </buttons>
       </device>
     </activity>
-    <activity name="04RightPanel" location="CybPit" active="yes" mousekeyboard="no" index="0" deviceType="1" background="3rightPanel.png" image="touchcontrol_remote_CybPit^04RightPanel.jpg">
+    <activity name="03CenterMFDPanel" location="CybPit" active="no" mousekeyboard="no" index="0" deviceType="1" background="2CenterPanel.png" image="touchcontrol_remote_CybPit^03CenterMFDPanel.jpg">
       <device name="0MainButtons">
         <buttons>
-          <button name="04RightPanel" type="link" top="1" left="773" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/04RightPanel.png" altButtonFile="^no_animation^" linkActivity="CybPit^04RightPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+          <button name="04RightPanel" type="link" top="0" left="770" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/04RightPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^04RightPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
             <code>
             </code>
           </button>
-          <button name="03MFDPanel" type="link" top="1" left="518" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/03MFDPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^03CenterMFDPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
+          <button name="02CenterUpPanel" type="link" top="0" left="260" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^02CenterPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
             <code>
             </code>
           </button>
-          <button name="02CenterUpPanel" type="link" top="1" left="262" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^02CenterPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
+          <button name="01LeftPanel" type="link" top="0" left="5" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^01LeftPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
             <code>
             </code>
           </button>
-          <button name="01LeftPanel" type="link" top="1" left="7" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^01LeftPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
+          <button name="LabelDisabled" type="label" top="0" left="515" textPosition="on" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/03MFDPanel.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
+            <code>
+            </code>
+          </button>
+        </buttons>
+      </device>
+    </activity>
+    <activity name="04RightPanel" location="CybPit" active="no" mousekeyboard="no" index="0" deviceType="1" background="3rightPanel.png" image="touchcontrol_remote_CybPit^04RightPanel.jpg">
+      <device name="0MainButtons">
+        <buttons>
+          <button name="04RightPanel" type="link" top="0" left="770" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/04RightPanel.png" altButtonFile="^no_animation^" linkActivity="CybPit^04RightPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+            <code>
+            </code>
+          </button>
+          <button name="03MFDPanel" type="link" top="0" left="515" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/03MFDPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^03CenterMFDPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
+            <code>
+            </code>
+          </button>
+          <button name="02CenterUpPanel" type="link" top="0" left="260" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^02CenterPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
+            <code>
+            </code>
+          </button>
+          <button name="01LeftPanel" type="link" top="0" left="5" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^01LeftPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
             <code>
             </code>
           </button>
