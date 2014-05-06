@@ -4,8 +4,10 @@
     <location name="CybPit" />
   </locations>
   <activities>
-    <activity name="1LeftPanel" deviceType="1" />
+    <activity name="01LeftPanel" deviceType="1" />
     <activity name="02CenterPanel" deviceType="1" />
+    <activity name="03CenterMFDPanel" deviceType="1" />
+    <activity name="04RightPanel" deviceType="1" />
   </activities>
   <devices>
     <device name="1LP1">
@@ -292,11 +294,11 @@
     <device name="1LP4">
       <buttons>
         <button name="1EWSRWROn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Ctrl Down}{q}{Ctrl Up}</code>
           <script>return '1EWSRWRLabel[@]switchAndKnob/swRedUp.png'</script>
         </button>
         <button name="1EWSRWROff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Ctrl Down}{w}{Ctrl Up}</code>
           <script>return '1EWSRWRLabel[@]switchAndKnob/swRedDown.png'</script>
         </button>
         <button name="1EWSRWRLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
@@ -307,11 +309,11 @@
           <code>1:ahk&lt;:1LP4^1EWSRWROn|2:ahk&lt;:1LP4^1EWSRWROff</code>
         </button>
         <button name="2EWSJammerOn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Ctrl Down}{b}{Ctrl Up}</code>
           <script>return '2EWSJammerLabel[@]switchAndKnob/swRedUp.png'</script>
         </button>
         <button name="2EWSJammerOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Ctrl Down}{n}{Ctrl Up}</code>
           <script>return '2EWSJammerLabel[@]switchAndKnob/swRedDown.png'</script>
         </button>
         <button name="2EWSJammerLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
@@ -322,11 +324,11 @@
           <code>1:ahk&lt;:1LP4^2EWSJammerOn|2:ahk&lt;:1LP4^2EWSJammerOff</code>
         </button>
         <button name="3EWSChaffOn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Ctrl Down}{NUMPAD0}{Ctrl Up}</code>
           <script>return '3EWSChaffLabel[@]switchAndKnob/swRedUp.png'</script>
         </button>
         <button name="3EWSChaffOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Ctrl Down}{NUMPAD1}{Ctrl Up}</code>
           <script>return '3EWSChaffLabel[@]switchAndKnob/swRedDown.png'</script>
         </button>
         <button name="3EWSChaffLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
@@ -337,11 +339,11 @@
           <code>1:ahk&lt;:1LP4^3EWSChaffOn|2:ahk&lt;:1LP4^3EWSChaffOff</code>
         </button>
         <button name="4EWSFlareOn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Ctrl Down}{f}{Ctrl Up}</code>
           <script>return '4EWSFlareLabel[@]switchAndKnob/swRedUp.png'</script>
         </button>
         <button name="4EWSFlareOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Ctrl Down}{g}{Ctrl Up}</code>
           <script>return '4EWSFlareLabel[@]switchAndKnob/swRedDown.png'</script>
         </button>
         <button name="4EWSFlareLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
@@ -356,11 +358,11 @@
           </code>
         </button>
         <button name="6EWSJettOn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Ctrl Down}{NUMPAD2}{Ctrl Up}</code>
           <script>return '6EWSJettLabel[@]switchAndKnob/swGrayUp.png'</script>
         </button>
         <button name="6EWSJettOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Ctrl Down}{NUMPAD3}{Ctrl Up}</code>
           <script>return '6EWSJettLabel[@]switchAndKnob/swGrayDown.png'</script>
         </button>
         <button name="6EWSJettLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
@@ -371,19 +373,19 @@
           <code>1:ahk&lt;:1LP4^6EWSJettOn|2:ahk&lt;:1LP4^6EWSJettOff</code>
         </button>
         <button name="7EWSProgOne" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Shift Down}{Ctrl Down}{1}{Ctrl Up}{Shift Up}</code>
           <script>return '7EWSProgLabel[@]switchAndKnob/knob4Left.png'</script>
         </button>
         <button name="7EWSProgTwo" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Shift Down}{Ctrl Down}{2}{Ctrl Up}{Shift Up}</code>
           <script>return '7EWSProgLabel[@]switchAndKnob/knob4Up.png'</script>
         </button>
         <button name="7EWSProgThree" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Shift Down}{Ctrl Down}{3}{Ctrl Up}{Shift Up}</code>
           <script>return '7EWSProgLabel[@]switchAndKnob/knob4Right.png'</script>
         </button>
         <button name="7EWSProgFour" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Shift Down}{Ctrl Down}{4}{Ctrl Up}{Shift Up}</code>
           <script>return '7EWSProgLabel[@]switchAndKnob/knob4Down.png'</script>
         </button>
         <button name="7EWSProgLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
@@ -394,27 +396,27 @@
           <code>1:ahk&lt;:1LP4^7EWSProgTwo|2:ahk&lt;:1LP4^7EWSProgFour|3:ahk&lt;:1LP4^7EWSProgOne|4:ahk&lt;:1LP4^7EWSProgThree</code>
         </button>
         <button name="8EWSModeOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send  {a}</code>
+          <code>send  {Shift Down}{Ctrl Down}{5}{Ctrl Up}{Shift Up}</code>
           <script>return '8EWSModeLabel[@]switchAndKnob/knob5Left.png'</script>
         </button>
         <button name="8EWSModeStby" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send  {Shift Down}{Ctrl Down}{6}{Ctrl Up}{Shift Up}</code>
           <script>return '8EWSModeLabel[@]switchAndKnob/knob5Up.png'</script>
         </button>
         <button name="8EWSModeMan" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send  {Shift Down}{Ctrl Down}{7}{Ctrl Up}{Shift Up}</code>
           <script>return '8EWSModeLabel[@]switchAndKnob/knob5Right.png'</script>
         </button>
         <button name="8EWSModeSemi" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send  {Shift Down}{Ctrl Down}{8}{Ctrl Up}{Shift Up}</code>
           <script>return '8EWSModeLabel[@]switchAndKnob/knob5DownRight.png'</script>
         </button>
         <button name="8EWSModeAuto" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send  {Shift Down}{Ctrl Down}{9}{Ctrl Up}{Shift Up}</code>
           <script>return '8EWSModeLabel[@]switchAndKnob/knob5Down.png'</script>
         </button>
         <button name="8EWSModeByp" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send  {Shift Down}{Ctrl Down}{0}{Ctrl Up}{Shift Up}</code>
           <script>return '8EWSModeLabel[@]switchAndKnob/knob5DownLeft.png'</script>
         </button>
         <button name="8EWSModeLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
@@ -429,15 +431,15 @@
     <device name="1LP5">
       <buttons>
         <button name="1BUPUHFOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Shift Down}{Ctrl Down}{s}{Ctrl Up}{Shift Up}</code>
           <script>return '1BUPUHFLabel[@]switchAndKnob/knob1Left.png'</script>
         </button>
         <button name="1BUPUHFMain" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Shift Down}{Ctrl Down}{d}{Ctrl Up}{Shift Up}</code>
           <script>return '1BUPUHFLabel[@]switchAndKnob/knob1Up.png'</script>
         </button>
         <button name="1BUPUHFBoth" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Shift Down}{Ctrl Down}{f}{Ctrl Up}{Shift Up}</code>
           <script>return '1BUPUHFLabel[@]switchAndKnob/knob1Right.png'</script>
         </button>
         <button name="1BUPUHFLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
@@ -448,11 +450,11 @@
           <code>1:ahk&lt;:1LP5^1BUPUHFMain|3:ahk&lt;:1LP5^1BUPUHFOff|4:ahk&lt;:1LP5^1BUPUHFBoth</code>
         </button>
         <button name="2BUPUHFPreset" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Shift Down}{Ctrl Down}{o}{Ctrl Up}{Shift Up}</code>
           <script>return '2BUPUHFLabel2[@]switchAndKnob/knob1Up.png'</script>
         </button>
         <button name="2BUPUHFGuard" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {a}</code>
+          <code>send {Shift Down}{Ctrl Down}{p}{Ctrl Up}{Shift Up}</code>
           <script>return '2BUPUHFLabel2[@]switchAndKnob/knob1Right.png'</script>
         </button>
         <button name="2BUPUHFLabel2" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
@@ -466,7 +468,7 @@
     </device>
     <device name="0MainButtons">
       <buttons>
-        <button name="01LeftPanel" type="link" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="CybPit^1LeftPanel" repeat="1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="01LeftPanel" type="link" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="CybPit^01LeftPanel" repeat="1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>
           </code>
         </button>
@@ -475,6 +477,14 @@
           </code>
         </button>
         <button name="LabelDisabled" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="03MFDPanel" type="link" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="CybPit^03CenterMFDPanel" repeat="1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="04RightPanel" type="link" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="CybPit^04RightPanel" repeat="1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>
           </code>
         </button>
