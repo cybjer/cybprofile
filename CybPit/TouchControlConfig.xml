@@ -228,11 +228,11 @@
       </device>
       <device name="0MainButtons">
         <buttons>
-          <button name="LabelDisabled" type="label" top="0" left="0" textPosition="on" textSize="medium" textColor="" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanelD.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+          <button name="LabelDisabled" type="label" top="0" left="0" textPosition="on" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanelD.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
             <code>
             </code>
           </button>
-          <button name="02CenterUpPanel" type="link" top="0" left="254" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanel.png" altButtonFile="" linkActivity="CybPit^02CenterPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
+          <button name="02CenterUpPanel" type="link" top="0" left="254" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanel.png" altButtonFile="^no_animation^" linkActivity="CybPit^02CenterPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
             <code>
             </code>
           </button>
@@ -242,11 +242,11 @@
     <activity name="02CenterPanel" location="CybPit" active="yes" mousekeyboard="no" index="0" deviceType="1" background="2CenterPanel.png" image="touchcontrol_remote_CybPit^02CenterPanel.jpg">
       <device name="0MainButtons">
         <buttons>
-          <button name="LabelDisabled" type="label" top="1" left="256" textPosition="on" textSize="medium" textColor="" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanelD.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+          <button name="LabelDisabled" type="label" top="1" left="256" textPosition="on" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanelD.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
             <code>
             </code>
           </button>
-          <button name="01LeftPanel" type="link" top="1" left="1" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanel.png" altButtonFile="" linkActivity="CybPit^1LeftPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
+          <button name="01LeftPanel" type="link" top="1" left="1" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanel.png" altButtonFile="^no_animation^" linkActivity="CybPit^1LeftPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
             <code>
             </code>
           </button>
