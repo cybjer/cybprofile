@@ -5,6 +5,7 @@
   </locations>
   <activities>
     <activity name="1LeftPanel" deviceType="1" />
+    <activity name="02CenterPanel" deviceType="1" />
   </activities>
   <devices>
     <device name="1LP1">
@@ -460,6 +461,16 @@
         </button>
         <button name="2BUPUHFGP2" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>1:ahk&lt;:1LP5^2BUPUHFPreset|4:ahk&lt;:1LP5^2BUPUHFGuard</code>
+        </button>
+      </buttons>
+    </device>
+    <device name="0MainButtons">
+      <buttons>
+        <button name="01LeftPanel" type="link" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="CybPit^1LeftPanel" repeat="1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code />
+        </button>
+        <button name="02CenterUpPanel" type="link" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="CybPit^02CenterPanel" repeat="1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code />
         </button>
       </buttons>
     </device>
