@@ -650,7 +650,7 @@
           <code>1:ahk&lt;:2IP1^03RightApUp|2:ahk&lt;:2IP1^03RightApDown|4:ahk&lt;:2IP1^03RightApMid</code>
         </button>
         <button name="06AFGearUp" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {Alt Down}{g{Alt Up}}</code>
+          <code>send {Alt Down}{g}{Alt Up}</code>
           <script>return '06AFGearLabel[@]switchAndKnob/LGearUp.png'</script>
         </button>
         <button name="06AFGearDown" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
