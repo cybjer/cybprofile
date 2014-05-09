@@ -729,12 +729,176 @@
           <code>
           </code>
         </button>
-        <button name="11FuelSwitchGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code />
+        <button name="11FuelSwitchGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:2IP1^11FuelSwitchResv|2:ahk&lt;:2IP1^11FuelSwitchCenterExt|3:ahk&lt;:2IP1^11FuelSwitchNorm|4:ahk&lt;:2IP1^11FuelSwitchWingInt|7:ahk&lt;:2IP1^11FuelSwitchWingExt</code>
         </button>
         <button name="11FuelSwitchTest" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Ctrl Down}{Alt Down}{F4}{Alt Up}{Ctrl Up}{Shift Up}</code>
           <script>return '11FuelSwitchLabel[@]switchAndKnob/knob3LeftDown.png'</script>
+        </button>
+        <button name="12FuelTransNorm" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{F8}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '12FuelTransLabel[@]switchAndKnob/swRedUp.png'</script>
+        </button>
+        <button name="12FuelTransWing" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{F9}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '12FuelTransLabel[@]switchAndKnob/swRedDown.png'</script>
+        </button>
+        <button name="12FuelTransLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="12FuelTransGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:2IP1^12FuelTransNorm|2:ahk&lt;:2IP1^12FuelTransWing</code>
+        </button>
+      </buttons>
+    </device>
+    <device name="2IP2">
+      <buttons>
+        <button name="01ICPCom1" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {NumpadDiv}</code>
+        </button>
+        <button name="02ICPCom2" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {NumpadMult}</code>
+        </button>
+        <button name="03ICPIff" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{NumpadDiv}{Ctrl Up}</code>
+        </button>
+        <button name="04ICPList" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {NumpadSub}</code>
+        </button>
+        <button name="05ICPAA" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{NumpadMult}{Ctrl Up}</code>
+        </button>
+        <button name="06ICPAG" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{NumpadSub}{Ctrl Up}</code>
+        </button>
+        <button name="07ICPTILS" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Numpad1}</code>
+        </button>
+        <button name="08ICPAlow" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Numpad2}</code>
+        </button>
+        <button name="09ICPThree" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Numpad3}</code>
+        </button>
+        <button name="10ICPStpt" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Numpad4}</code>
+        </button>
+        <button name="11ICPCrus" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Numpad5}</code>
+        </button>
+        <button name="12ICPSix" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Numpad6}</code>
+        </button>
+        <button name="13ICPMark" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Numpad7}</code>
+        </button>
+        <button name="14ICPEight" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Numpad8}</code>
+        </button>
+        <button name="15ICPNine" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Numpad9}</code>
+        </button>
+        <button name="16ICPZero" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Numpad0}</code>
+        </button>
+        <button name="17ICPClear" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {NumpadAdd}</code>
+        </button>
+        <button name="18ICPEnter" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {NumpadEnter}</code>
+        </button>
+        <button name="19ICPNext" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {PgUp}</code>
+        </button>
+        <button name="20ICPPrevious" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {PgDn}</code>
+        </button>
+        <button name="21ICPDEDDown" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Down}{Ctrl Up}</code>
+        </button>
+        <button name="22ICPDEDUp" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Up}{Ctrl Up}</code>
+        </button>
+        <button name="23ICPDEDSeq" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Right}{Ctrl Up}</code>
+        </button>
+        <button name="24ICPDEDReset" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Left}{Ctrl Up}</code>
+        </button>
+        <button name="25ICPDEDGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk:2IP2^22ICPDEDUp|2:ahk:2IP2^21ICPDEDDown|3:ahk:2IP2^24ICPDEDReset|4:ahk:2IP2^23ICPDEDSeq</code>
+        </button>
+        <button name="26ICPDriftCOOn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{NumpadAdd}{Ctrl Up}</code>
+          <script>return '26ICPDriftCOLabel[@]switchAndKnob/swRedUp.png'</script>
+        </button>
+        <button name="26ICPDriftCOOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {NumpadDot}</code>
+          <script>return '26ICPDriftCOLabel[@]switchAndKnob/swRedDown.png'</script>
+        </button>
+        <button name="26ICPDriftCOLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="26ICPDriftCOGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:2IP2^26ICPDriftCOOn|2:ahk&lt;:2IP2^26ICPDriftCOOff</code>
+        </button>
+        <button name="27HUDBrightnessUp" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{x}{Alt Up}{Ctrl Up}{Shift Up}</code>
+        </button>
+        <button name="27HUDBrightnessDown" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{z}{Alt Up}{Ctrl Up}{Shift Up}</code>
+        </button>
+      </buttons>
+    </device>
+    <device name="2IP3">
+      <buttons>
+        <button name="01AWACSCommand" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {q}</code>
+        </button>
+        <button name="02WingCommand" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {w}</code>
+        </button>
+        <button name="03ElementCommand" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {e}</code>
+        </button>
+        <button name="04FlightCommand" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {r}</code>
+        </button>
+        <button name="05TowerCommand" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {t}</code>
+        </button>
+        <button name="06TankerCommand" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {y}</code>
+        </button>
+        <button name="Num1" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {1}</code>
+        </button>
+        <button name="Num2" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {2}</code>
+        </button>
+        <button name="Num3" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {3}</code>
+        </button>
+        <button name="Num4" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {4}</code>
+        </button>
+        <button name="Num5" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {5}</code>
+        </button>
+        <button name="Num6" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {6}</code>
+        </button>
+        <button name="Num7" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {7}</code>
+        </button>
+        <button name="Num8" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {8}</code>
+        </button>
+        <button name="Num9" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {9}</code>
         </button>
       </buttons>
     </device>
