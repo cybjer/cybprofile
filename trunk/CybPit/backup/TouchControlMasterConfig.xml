@@ -630,6 +630,40 @@
         <button name="05LeftAPGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>1:ahk&lt;:2IP1^05LeftAPUp|2:ahk&lt;:2IP1^05LeftAPDown|4:ahk&lt;:2IP1^05LeftAPMid</code>
         </button>
+        <button name="03RightApUp" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Alt Down}{a}{Alt Up}{Ctrl Up}</code>
+          <script>return '03RightApLabel[@]switchAndKnob/swRedUp.png'</script>
+        </button>
+        <button name="03RightApMid" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Alt Down}{s}{Alt Up}{Ctrl Up}</code>
+          <script>return '03RightApLabel[@]switchAndKnob/swRedMidV.png'</script>
+        </button>
+        <button name="03RightApDown" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Alt Down}{d}{Alt Up}{Ctrl Up}</code>
+          <script>return '03RightApLabel[@]switchAndKnob/swRedDown.png'</script>
+        </button>
+        <button name="03RightApLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="03RightApGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:2IP1^03RightApUp|2:ahk&lt;:2IP1^03RightApDown|4:ahk&lt;:2IP1^03RightApMid</code>
+        </button>
+        <button name="06AFGearUp" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Alt Down}{g{Alt Up}}</code>
+          <script>return '06AFGearLabel[@]switchAndKnob/LGearUp.png'</script>
+        </button>
+        <button name="06AFGearDown" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{g}{Shift Up}</code>
+          <script>return '06AFGearLabel[@]switchAndKnob/LGearDown.png'</script>
+        </button>
+        <button name="06AFGearLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="06AFGearGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:2IP1^06AFGearUp|2:ahk&lt;:2IP1^06AFGearDown</code>
+        </button>
       </buttons>
     </device>
   </devices>
