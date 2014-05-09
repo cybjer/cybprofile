@@ -630,15 +630,15 @@
         <button name="05LeftAPGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>1:ahk&lt;:2IP1^05LeftAPUp|2:ahk&lt;:2IP1^05LeftAPDown|4:ahk&lt;:2IP1^05LeftAPMid</code>
         </button>
-        <button name="03RightApUp" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="03RightApUp" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Ctrl Down}{Alt Down}{a}{Alt Up}{Ctrl Up}</code>
           <script>return '03RightApLabel[@]switchAndKnob/swRedUp.png'</script>
         </button>
-        <button name="03RightApMid" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="03RightApMid" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Ctrl Down}{Alt Down}{s}{Alt Up}{Ctrl Up}</code>
           <script>return '03RightApLabel[@]switchAndKnob/swRedMidV.png'</script>
         </button>
-        <button name="03RightApDown" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="03RightApDown" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Ctrl Down}{Alt Down}{d}{Alt Up}{Ctrl Up}</code>
           <script>return '03RightApLabel[@]switchAndKnob/swRedDown.png'</script>
         </button>
@@ -649,11 +649,11 @@
         <button name="03RightApGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>1:ahk&lt;:2IP1^03RightApUp|2:ahk&lt;:2IP1^03RightApDown|4:ahk&lt;:2IP1^03RightApMid</code>
         </button>
-        <button name="06AFGearUp" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="06AFGearUp" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Alt Down}{g}{Alt Up}</code>
           <script>return '06AFGearLabel[@]switchAndKnob/LGearUp.png'</script>
         </button>
-        <button name="06AFGearDown" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="06AFGearDown" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{g}{Shift Up}</code>
           <script>return '06AFGearLabel[@]switchAndKnob/LGearDown.png'</script>
         </button>
@@ -663,6 +663,78 @@
         </button>
         <button name="06AFGearGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>1:ahk&lt;:2IP1^06AFGearUp|2:ahk&lt;:2IP1^06AFGearDown</code>
+        </button>
+        <button name="07HSIILSTcn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{i}{Shift Up}</code>
+          <script>return '07HSILabel[@]switchAndKnob/knob3Left.png'</script>
+        </button>
+        <button name="07HSITcn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{i}{Ctrl Up}{Shift Up}</code>
+          <script>return '07HSILabel[@]switchAndKnob/knob3Up.png'</script>
+        </button>
+        <button name="07HSINav" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{i}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '07HSILabel[@]switchAndKnob/knob3Right.png'</script>
+        </button>
+        <button name="07HSIILSNav" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Alt Down}{i}{Alt Up}{Ctrl Up}</code>
+          <script>return '07HSILabel[@]switchAndKnob/knob3Down.png'</script>
+        </button>
+        <button name="07HSILabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="07HSIGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:2IP1^07HSITcn|2:ahk&lt;:2IP1^07HSIILSNav|3:ahk&lt;:2IP1^07HSIILSTcn|4:ahk&lt;:2IP1^07HSINav</code>
+        </button>
+        <button name="08HSICourseInc" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Alt Down}{b}{Alt Up}{Ctrl Up}</code>
+        </button>
+        <button name="08HSICourseDec" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Alt Down}{v}{Alt Up}{Ctrl Up}</code>
+        </button>
+        <button name="09HSIHeadingInc" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Alt Down}{m}{Alt Up}{Ctrl Up}</code>
+        </button>
+        <button name="09HSIHeadingDec" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send  {Ctrl Down}{Alt Down}{n}{Alt Up}{Ctrl Up}</code>
+        </button>
+        <button name="10AltPressInc" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{q}{Ctrl Up}{Shift Up}</code>
+        </button>
+        <button name="10AltPressDec" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{w}{Ctrl Up}{Shift Up}</code>
+        </button>
+        <button name="11FuelSwitchNorm" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{F6}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '11FuelSwitchLabel[@]switchAndKnob/knob3Left.png'</script>
+        </button>
+        <button name="11FuelSwitchResv" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{F2}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '11FuelSwitchLabel[@]switchAndKnob/knob3Up.png'</script>
+        </button>
+        <button name="11FuelSwitchWingInt" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{F3}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '11FuelSwitchLabel[@]switchAndKnob/knob3Right.png'</script>
+        </button>
+        <button name="11FuelSwitchWingExt" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{F5}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '11FuelSwitchLabel[@]switchAndKnob/knob3RightDown.png'</script>
+        </button>
+        <button name="11FuelSwitchCenterExt" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{F7}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '11FuelSwitchLabel[@]switchAndKnob/knob3Down.png'</script>
+        </button>
+        <button name="11FuelSwitchLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="11FuelSwitchGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code />
+        </button>
+        <button name="11FuelSwitchTest" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{F4}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '11FuelSwitchLabel[@]switchAndKnob/knob3LeftDown.png'</script>
         </button>
       </buttons>
     </device>
