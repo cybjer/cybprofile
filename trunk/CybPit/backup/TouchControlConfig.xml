@@ -341,9 +341,8 @@
             <code>
             </code>
           </button>
-          <button name="01LaserArmGP" type="gp" top="97" left="34" textPosition="off" textSize="medium" textColor="Black" width="55" height="102" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="6">
-            <code>
-            </code>
+          <button name="01LaserArmGP" type="gp" top="97" left="34" textPosition="off" textSize="medium" textColor="Black" width="55" height="102" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="6">
+            <code>1:ahk&lt;:2IP1^01LaserArmOn|2:ahk&lt;:2IP1^01LaserArmOff</code>
           </button>
           <button name="01LaserArmLabel" type="label" top="124" left="43" textPosition="on" textSize="medium" textColor="Black" width="36" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="7">
             <code>
