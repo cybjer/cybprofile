@@ -928,15 +928,15 @@
         </button>
         <button name="02PitchLadderATTFPM" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Ctrl Down}{0}{Ctrl Up}</code>
-          <script>return '01PitchLadderLabel[@]switchAndKnob/swGrayUp.png'</script>
+          <script>return '02PitchLadderLabel[@]switchAndKnob/swGrayUp.png'</script>
         </button>
         <button name="02PitchLadderFPM" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Ctrl Down}{9}{Ctrl Up}</code>
-          <script>return '01PitchLadderLabel[@]switchAndKnob/swGrayMid.png'</script>
+          <script>return '02PitchLadderLabel[@]switchAndKnob/swGrayMid.png'</script>
         </button>
         <button name="02PitchLadderOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Ctrl Down}{y}{Ctrl Up}</code>
-          <script>return '01PitchLadderLabel[@]switchAndKnob/swGrayDown.png'</script>
+          <script>return '02PitchLadderLabel[@]switchAndKnob/swGrayDown.png'</script>
         </button>
         <button name="02PitchLadderLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>
@@ -947,12 +947,15 @@
         </button>
         <button name="03HUDDEDOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Ctrl Down}{F8}{Ctrl Up}{Shift Up}</code>
+          <script>return '03HUDDEDLabel[@]switchAndKnob/swGrayDown.png'</script>
         </button>
         <button name="03HUDDEDPFL" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Ctrl Down}{F9}{Ctrl Up}{Shift Up}</code>
+          <script>return '03HUDDEDLabel[@]switchAndKnob/swGrayMid.png'</script>
         </button>
         <button name="03HUDDEDDED" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Ctrl Down}{F10}{Ctrl Up}{Shift Up}</code>
+          <script>return '03HUDDEDLabel[@]switchAndKnob/swGrayUp.png'</script>
         </button>
         <button name="03HUDDEDLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>
