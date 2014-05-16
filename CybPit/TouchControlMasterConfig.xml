@@ -903,6 +903,12 @@
         <button name="Num9" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {9}</code>
         </button>
+        <button name="07MissileStep" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{-}{Shift Up}</code>
+        </button>
+        <button name="08ToogleNVGMode" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {n}</code>
+        </button>
       </buttons>
     </device>
     <device name="4RP1">
@@ -1112,10 +1118,10 @@
     </device>
     <device name="3MP1">
       <buttons>
-        <button name="01MFDLeftView" type="web+" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="norefresh" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="01MFDLeftView" type="web" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="norefresh" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>&lt;body style="margin:0px"&gt;&lt;img src="%touchcontrolserver/grabber%" mce_src="%touchcontrolserver/grabber%" style="width:382%;height:100%"/&gt;&lt;/body&gt;</code>
         </button>
-        <button name="01MFDRightView" type="web+" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="norefresh" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="01MFDRightView" type="web" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="norefresh" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>&lt;body style="margin:0px"&gt;&lt;img src="%touchcontrolserver/grabber%" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
         </button>
         <button name="02MFDMarquee" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
@@ -1275,6 +1281,33 @@
         </button>
         <button name="02SeatGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>3:ahk&lt;:3MP4^02SeatOff|4:ahk&lt;:3MP4^02SeatOn</code>
+        </button>
+      </buttons>
+    </device>
+    <device name="4RP2">
+      <buttons>
+        <button name="01AirSourceOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Alt Down}{Numpad7}{Alt Up}</code>
+          <script>return '01AirSourceLabel[@]switchAndKnob/knob3Left.png'</script>
+        </button>
+        <button name="01AirSourceNorm" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Alt Down}{Numpad8}{Alt Up}</code>
+          <script>return '01AirSourceLabel[@]switchAndKnob/knob3Up.png'</script>
+        </button>
+        <button name="01AirSourceDump" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Alt Down}{Numpad9}{Alt Up}</code>
+          <script>return '01AirSourceLabel[@]switchAndKnob/knob3Right.png'</script>
+        </button>
+        <button name="01AirSourceRam" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Alt Down}{Numpad4}{Alt Up}</code>
+          <script>return '01AirSourceLabel[@]switchAndKnob/knob3Down.png'</script>
+        </button>
+        <button name="01AirSourceGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:4RP2^01AirSourceNorm|2:ahk&lt;:4RP2^01AirSourceRam|3:ahk&lt;:4RP2^01AirSourceOff|4:ahk&lt;:4RP2^01AirSourceDump</code>
+        </button>
+        <button name="01AirSourceLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
         </button>
       </buttons>
     </device>
