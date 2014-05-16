@@ -741,7 +741,7 @@
       </device>
       <device name="4RP1">
         <buttons>
-          <button name="13RAltGP" type="gp" top="99" left="276" textPosition="off" textSize="medium" textColor="Black" width="54" height="85" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+          <button name="13RAltGP" type="gp" top="99" left="276" textPosition="off" textSize="medium" textColor="Black" width="67" height="85" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
             <code>1:ahk&lt;:4RP1^13RAltOn|2:ahk&lt;:4RP1^13RAltOff|4:ahk&lt;:4RP1^13RAltStby</code>
           </button>
           <button name="13RAltLabel" type="label" top="122" left="284" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
