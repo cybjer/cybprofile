@@ -849,10 +849,10 @@
           <code>1:ahk&lt;:2IP2^26ICPDriftCOOn|2:ahk&lt;:2IP2^26ICPDriftCOOff</code>
         </button>
         <button name="27HUDBrightnessUp" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {Shift Down}{Ctrl Down}{Alt Down}{x}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <code>Send {Alt Down}{]}{Alt Up}</code>
         </button>
         <button name="27HUDBrightnessDown" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {Shift Down}{Ctrl Down}{Alt Down}{z}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <code>Send {Alt Down}{[}{Alt Up}</code>
         </button>
       </buttons>
     </device>
@@ -1282,6 +1282,15 @@
         <button name="02SeatGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>3:ahk&lt;:3MP4^02SeatOff|4:ahk&lt;:3MP4^02SeatOn</code>
         </button>
+        <button name="03RWRPower" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {F2}</code>
+        </button>
+        <button name="04RWRSetSearch" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {End}</code>
+        </button>
+        <button name="03RWRSetGround" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Home}</code>
+        </button>
       </buttons>
     </device>
     <device name="4RP2">
@@ -1308,6 +1317,119 @@
         <button name="01AirSourceLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>
           </code>
+        </button>
+        <button name="02FCCOn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Numpad7}{Shift Up}</code>
+          <script>return '02FCCLabel[@]switchAndKnob/swGrayUp.png'</script>
+        </button>
+        <button name="02FCCOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Alt Down}{Numpad8}{Alt Up}</code>
+          <script>return '02FCCLabel[@]switchAndKnob/swGrayDown.png'</script>
+        </button>
+        <button name="02FCCLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="02FCCGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:4RP2^02FCCOn|2:ahk&lt;:4RP2^02FCCOff</code>
+        </button>
+        <button name="03SMSOn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Numpad5}{Ctrl Up}</code>
+          <script>return '03SMSLabel[@]switchAndKnob/swGrayUp.png'</script>
+        </button>
+        <button name="03SMSOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Numpad6}{Ctrl Up}</code>
+          <script>return '03SMSLabel[@]switchAndKnob/swGrayDown.png'</script>
+        </button>
+        <button name="03SMSLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="03SMSGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:4RP2^03SMSOn|2:ahk&lt;:4RP2^03SMSOff</code>
+        </button>
+        <button name="04MFDOn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Alt Down}{Numpad5}{Alt Up}</code>
+          <script>return '04MFDLabel[@]switchAndKnob/swGrayUp.png'</script>
+        </button>
+        <button name="04MFDOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Alt Down}{Numpad6}{Alt Up}</code>
+          <script>return '04MFDLabel[@]switchAndKnob/swGrayDown.png'</script>
+        </button>
+        <button name="04MFDLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="04MFDGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:4RP2^04MFDOn|2:ahk&lt;:4RP2^04MFDOff</code>
+        </button>
+        <button name="05UFCOn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Alt Down}{Numpad3}{Alt Up}</code>
+          <script>return '05UFCLabel[@]switchAndKnob/swGrayUp.png'</script>
+        </button>
+        <button name="05UFCOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Alt Down}{Numpad0}{Alt Up}</code>
+          <script>return '05UFCLabel[@]switchAndKnob/swGrayDown.png'</script>
+        </button>
+        <button name="05UFCLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="05UFCGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:4RP2^05UFCOn|2:ahk&lt;:4RP2^05UFCOff</code>
+        </button>
+        <button name="06GPSOn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{1}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '06GPSLabel[@]switchAndKnob/swGrayUp.png'</script>
+        </button>
+        <button name="06GPSOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{2}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '06GPSLabel[@]switchAndKnob/swGrayDown.png'</script>
+        </button>
+        <button name="06GPSLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="06GPSGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:4RP2^06GPSOn|2:ahk&lt;:4RP2^06GPSOff</code>
+        </button>
+        <button name="07DLOn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{3}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '07DLLabel[@]switchAndKnob/swGrayUp.png'</script>
+        </button>
+        <button name="07DLOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{4}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '07DLLabel[@]switchAndKnob/swGrayDown.png'</script>
+        </button>
+        <button name="07DLLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="07DLGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:4RP2^07DLOn|2:ahk&lt;:4RP2^07DLOff</code>
+        </button>
+        <button name="08INSOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Numpad7}{Ctrl Up}</code>
+          <script>return '08INSLabel[@]switchAndKnob/knob3LeftDown.png'</script>
+        </button>
+        <button name="08INSNorm" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Numpad8}{Ctrl Up}</code>
+          <script>return '08INSLabel[@]switchAndKnob/knob3Left.png'</script>
+        </button>
+        <button name="08INSNav" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Numpad9}{Ctrl Up}</code>
+          <script>return '08INSLabel[@]switchAndKnob/knob3Up.png'</script>
+        </button>
+        <button name="08INSFlt" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{Numpad4}{Ctrl Up}</code>
+          <script>return '08INSLabel[@]switchAndKnob/knob3Right.png'</script>
+        </button>
+        <button name="08INSLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="08INSGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:4RP2^08INSNav|3:ahk&lt;:4RP2^08INSNorm|4:ahk&lt;:4RP2^08INSFlt|7:ahk&lt;:4RP2^08INSOff</code>
         </button>
       </buttons>
     </device>
