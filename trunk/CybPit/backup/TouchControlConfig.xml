@@ -320,7 +320,7 @@
       </device>
       <device name="2IP1">
         <buttons>
-          <button name="13ExtinguishMasterCaution" type="ahk" top="85" left="57" textPosition="off" textSize="medium" textColor="Black" width="128" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
+          <button name="13ExtinguishMasterCaution" type="ahk" top="85" left="57" textPosition="off" textSize="medium" textColor="Black" width="129" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
             <code>send {F10}</code>
           </button>
           <button name="12FuelTransGP" type="gp" top="585" left="827" textPosition="off" textSize="medium" textColor="Black" width="77" height="102" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="43">
@@ -333,26 +333,26 @@
           <button name="11FuelSwitchGP" type="gp" top="583" left="664" textPosition="off" textSize="medium" textColor="Black" width="113" height="107" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="45">
             <code>1:ahk&lt;:2IP1^11FuelSwitchResv|2:ahk&lt;:2IP1^11FuelSwitchCenterExt|3:ahk&lt;:2IP1^11FuelSwitchNorm|4:ahk&lt;:2IP1^11FuelSwitchWingInt|7:ahk&lt;:2IP1^11FuelSwitchWingExt</code>
           </button>
-          <button name="11FuelSwitchLabel" type="label" top="601" left="684" textPosition="on" textSize="medium" textColor="Black" width="75" height="75" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/knob3LeftDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="46">
+          <button name="11FuelSwitchLabel" type="label" top="598" left="684" textPosition="on" textSize="medium" textColor="Black" width="75" height="75" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/knob3Left.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="46">
             <code>
             </code>
           </button>
-          <button name="10AltPressInc" type="ahk" top="547" left="494" textPosition="off" textSize="medium" textColor="Black" width="34" height="74" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="47">
+          <button name="10AltPressInc" type="ahk" top="547" left="496" textPosition="off" textSize="medium" textColor="Black" width="58" height="74" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="47">
             <code>send {Shift Down}{Ctrl Down}{q}{Ctrl Up}{Shift Up}</code>
           </button>
-          <button name="10AltPressDec" type="ahk" top="547" left="458" textPosition="off" textSize="medium" textColor="Black" width="34" height="74" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="48">
+          <button name="10AltPressDec" type="ahk" top="547" left="435" textPosition="off" textSize="medium" textColor="Black" width="59" height="74" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="48">
             <code>send {Shift Down}{Ctrl Down}{w}{Ctrl Up}{Shift Up}</code>
           </button>
-          <button name="09HSIHeadingInc" type="ahk" top="632" left="557" textPosition="off" textSize="medium" textColor="Black" width="41" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="49">
+          <button name="09HSIHeadingInc" type="ahk" top="632" left="558" textPosition="off" textSize="medium" textColor="Black" width="53" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="49">
             <code>send {Ctrl Down}{Alt Down}{m}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="09HSIHeadingDec" type="ahk" top="632" left="517" textPosition="off" textSize="medium" textColor="Black" width="41" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="50">
+          <button name="09HSIHeadingDec" type="ahk" top="632" left="505" textPosition="off" textSize="medium" textColor="Black" width="54" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="50">
             <code>send  {Ctrl Down}{Alt Down}{n}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="08HSICourseInc" type="ahk" top="632" left="433" textPosition="off" textSize="medium" textColor="Black" width="41" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="51">
+          <button name="08HSICourseInc" type="ahk" top="632" left="433" textPosition="off" textSize="medium" textColor="Black" width="53" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="51">
             <code>send {Ctrl Down}{Alt Down}{b}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="08HSICourseDec" type="ahk" top="632" left="395" textPosition="off" textSize="medium" textColor="Black" width="38" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="52">
+          <button name="08HSICourseDec" type="ahk" top="632" left="376" textPosition="off" textSize="medium" textColor="Black" width="57" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="52">
             <code>send {Ctrl Down}{Alt Down}{v}{Alt Up}{Ctrl Up}</code>
           </button>
           <button name="07HSIGP" type="gp" top="539" left="231" textPosition="off" textSize="medium" textColor="Black" width="95" height="95" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="53">
@@ -369,35 +369,35 @@
             <code>
             </code>
           </button>
-          <button name="03RightApGP" type="gp" top="380" left="137" textPosition="off" textSize="medium" textColor="Black" width="55" height="109" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="57">
+          <button name="03RightApGP" type="gp" top="380" left="137" textPosition="off" textSize="medium" textColor="Black" width="63" height="110" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="57">
             <code>1:ahk&lt;:2IP1^03RightApUp|2:ahk&lt;:2IP1^03RightApDown|4:ahk&lt;:2IP1^03RightApMid</code>
           </button>
           <button name="03RightApLabel" type="label" top="423" left="139" textPosition="on" textSize="medium" textColor="Black" width="33" height="33" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedMidV.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="58">
             <code>
             </code>
           </button>
-          <button name="05LeftAPGP" type="gp" top="381" left="21" textPosition="off" textSize="medium" textColor="Black" width="53" height="109" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="59">
+          <button name="05LeftAPGP" type="gp" top="381" left="21" textPosition="off" textSize="medium" textColor="Black" width="68" height="110" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="59">
             <code>1:ahk&lt;:2IP1^05LeftAPUp|2:ahk&lt;:2IP1^05LeftAPDown|4:ahk&lt;:2IP1^05LeftAPMid</code>
           </button>
           <button name="05LeftAPLabel" type="label" top="426" left="26" textPosition="on" textSize="medium" textColor="Black" width="33" height="33" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedMidV.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="60">
             <code>
             </code>
           </button>
-          <button name="04MasterArmGP" type="gp" top="276" left="79" textPosition="off" textSize="medium" textColor="Black" width="55" height="96" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="61">
+          <button name="04MasterArmGP" type="gp" top="276" left="72" textPosition="off" textSize="medium" textColor="Black" width="76" height="96" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="61">
             <code>1:ahk&lt;:2IP1^04ArmMasterArm|2:ahk&lt;:2IP1^04SimMasterArm|4:ahk&lt;:2IP1^04SafeMasterArm</code>
           </button>
           <button name="04MasterArmLabel" type="label" top="296" left="91" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayMid.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="62">
             <code>
             </code>
           </button>
-          <button name="02RFSwitchGP" type="gp" top="160" left="134" textPosition="off" textSize="medium" textColor="Black" width="53" height="105" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="63">
+          <button name="02RFSwitchGP" type="gp" top="160" left="133" textPosition="off" textSize="medium" textColor="Black" width="62" height="105" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="63">
             <code>1:ahk&lt;:2IP1^02RFSwitchNorm|2:ahk&lt;:2IP1^02RFSwitchSilent|4:ahk&lt;:2IP1^02RFSwitchQuiet</code>
           </button>
           <button name="02RFSwitchLabel" type="label" top="189" left="141" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayMid.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="64">
             <code>
             </code>
           </button>
-          <button name="01LaserArmGP" type="gp" top="162" left="34" textPosition="off" textSize="medium" textColor="Black" width="55" height="102" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="65">
+          <button name="01LaserArmGP" type="gp" top="162" left="29" textPosition="off" textSize="medium" textColor="Black" width="63" height="102" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="65">
             <code>1:ahk&lt;:2IP1^01LaserArmOn|2:ahk&lt;:2IP1^01LaserArmOff</code>
           </button>
           <button name="01LaserArmLabel" type="label" top="189" left="43" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="66">
@@ -417,17 +417,17 @@
           <button name="26ICPDriftCOGP" type="gp" top="397" left="535" textPosition="off" textSize="medium" textColor="Black" width="62" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="20">
             <code>1:ahk&lt;:2IP2^26ICPDriftCOOn|2:ahk&lt;:2IP2^26ICPDriftCOOff</code>
           </button>
-          <button name="26ICPDriftCOLabel" type="label" top="416" left="547" textPosition="on" textSize="medium" textColor="Black" width="34" height="34" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedMidV.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="21">
+          <button name="26ICPDriftCOLabel" type="label" top="421" left="547" textPosition="on" textSize="medium" textColor="Black" width="34" height="34" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedMidV.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="21">
             <code>
             </code>
           </button>
           <button name="25ICPDEDGP" type="gp" top="399" left="412" textPosition="off" textSize="medium" textColor="Black" width="77" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="22">
             <code>1:ahk:2IP2^22ICPDEDUp|2:ahk:2IP2^21ICPDEDDown|3:ahk:2IP2^24ICPDEDReset|4:ahk:2IP2^23ICPDEDSeq</code>
           </button>
-          <button name="20ICPPrevious" type="ahk" top="432" left="322" textPosition="off" textSize="medium" textColor="Black" width="55" height="49" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="23">
+          <button name="20ICPPrevious" type="ahk" top="432" left="324" textPosition="off" textSize="medium" textColor="Black" width="55" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="23">
             <code>send {PgDn}</code>
           </button>
-          <button name="19ICPNext" type="ahk" top="387" left="322" textPosition="off" textSize="medium" textColor="Black" width="55" height="49" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="24">
+          <button name="19ICPNext" type="ahk" top="387" left="324" textPosition="off" textSize="medium" textColor="Black" width="55" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="24">
             <code>send {PgUp}</code>
           </button>
           <button name="18ICPEnter" type="ahk" top="244" left="562" textPosition="off" textSize="medium" textColor="Black" width="57" height="57" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="25">
@@ -488,10 +488,10 @@
       </device>
       <device name="2IP3">
         <buttons>
-          <button name="08ToogleNVGMode" type="ahk" top="681" left="192" textPosition="off" textSize="medium" textColor="Black" width="73" height="71" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+          <button name="08ToogleNVGMode" type="ahk" top="682" left="192" textPosition="off" textSize="medium" textColor="Black" width="73" height="71" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
             <code>send {n}</code>
           </button>
-          <button name="07MissileStep" type="ahk" top="681" left="277" textPosition="off" textSize="medium" textColor="Black" width="73" height="70" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
+          <button name="07MissileStep" type="ahk" top="682" left="277" textPosition="off" textSize="medium" textColor="Black" width="73" height="70" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
             <code>send {Shift Down}{-}{Shift Up}</code>
           </button>
           <button name="Num9" type="ahk" top="629" left="929" textPosition="off" textSize="medium" textColor="Black" width="57" height="57" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
@@ -732,19 +732,19 @@
     <activity name="04RightPanel" location="CybPit" active="yes" mousekeyboard="no" index="0" deviceType="1" background="3RightPanel.png" image="touchcontrol_remote_CybPit^04RightPanel.jpg">
       <device name="0MainButtons">
         <buttons>
-          <button name="04RightPanel" type="link" top="0" left="770" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/04RightPanel.png" altButtonFile="^no_animation^" linkActivity="CybPit^04RightPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="33">
+          <button name="04RightPanel" type="link" top="0" left="770" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/04RightPanel.png" altButtonFile="^no_animation^" linkActivity="CybPit^04RightPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="43">
             <code>
             </code>
           </button>
-          <button name="03MFDPanel" type="link" top="0" left="515" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/03MFDPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^03CenterMFDPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="34">
+          <button name="03MFDPanel" type="link" top="0" left="515" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/03MFDPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^03CenterMFDPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="44">
             <code>
             </code>
           </button>
-          <button name="02CenterUpPanel" type="link" top="0" left="261" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^02ICPPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="35">
+          <button name="02CenterUpPanel" type="link" top="0" left="261" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^02ICPPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="45">
             <code>
             </code>
           </button>
-          <button name="01LeftPanel" type="link" top="0" left="5" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^01LeftPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="36">
+          <button name="01LeftPanel" type="link" top="0" left="5" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/01LeftPanelD.png" altButtonFile="^no_animation^" linkActivity="CybPit^01LeftPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="46">
             <code>
             </code>
           </button>
@@ -752,84 +752,96 @@
       </device>
       <device name="4RP1">
         <buttons>
-          <button name="13RAltGP" type="gp" top="99" left="276" textPosition="off" textSize="medium" textColor="Black" width="70" height="85" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="16">
+          <button name="16InstrumentLightCW" type="ahk" top="411" left="202" textPosition="off" textSize="medium" textColor="Black" width="59" height="88" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="6">
+            <code>send {Shift Down}{Ctrl Down}{Alt Down}{7}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          </button>
+          <button name="16InstrumentLightCCW" type="ahk" top="411" left="149" textPosition="off" textSize="medium" textColor="Black" width="54" height="88" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="7">
+            <code>send {Shift Down}{Ctrl Down}{Alt Down}{8}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          </button>
+          <button name="15InteriorLightCCW" type="ahk" top="555" left="21" textPosition="off" textSize="medium" textColor="Black" width="64" height="121" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="8">
+            <code>send {Shift Down}{Ctrl Down}{Alt Down}{6}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          </button>
+          <button name="14InteriorLightCW" type="ahk" top="555" left="85" textPosition="off" textSize="medium" textColor="Black" width="64" height="121" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="9">
+            <code>send {Shift Down}{Ctrl Down}{Alt Down}{5}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          </button>
+          <button name="13RAltGP" type="gp" top="99" left="276" textPosition="off" textSize="medium" textColor="Black" width="70" height="85" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="26">
             <code>1:ahk&lt;:4RP1^13RAltOn|2:ahk&lt;:4RP1^13RAltOff|4:ahk&lt;:4RP1^13RAltStby</code>
           </button>
-          <button name="13RAltLabel" type="label" top="122" left="284" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="17">
+          <button name="13RAltLabel" type="label" top="122" left="284" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="27">
             <code>
             </code>
           </button>
-          <button name="12FCRGP" type="gp" top="99" left="203" textPosition="off" textSize="medium" textColor="Black" width="54" height="86" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="18">
+          <button name="12FCRGP" type="gp" top="99" left="203" textPosition="off" textSize="medium" textColor="Black" width="62" height="86" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="28">
             <code>1:ahk&lt;:4RP1^12FCROn|2:ahk&lt;:4RP1^12FCROff</code>
           </button>
-          <button name="12FCRLabel" type="label" top="122" left="210" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="19">
+          <button name="12FCRLabel" type="label" top="122" left="210" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="29">
             <code>
             </code>
           </button>
-          <button name="11RightHptGP" type="gp" top="99" left="133" textPosition="off" textSize="medium" textColor="Black" width="54" height="86" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="20">
+          <button name="11RightHptGP" type="gp" top="99" left="133" textPosition="off" textSize="medium" textColor="Black" width="61" height="86" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="30">
             <code>1:ahk&lt;:4RP1^11RightHptOn|2:ahk&lt;:4RP1^11RightHptOff</code>
           </button>
-          <button name="11RightHptLabel" type="label" top="122" left="140" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="21">
+          <button name="11RightHptLabel" type="label" top="122" left="140" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="31">
             <code>
             </code>
           </button>
-          <button name="10LeftHptGP" type="gp" top="98" left="57" textPosition="off" textSize="medium" textColor="Black" width="53" height="90" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="22">
+          <button name="10LeftHptGP" type="gp" top="98" left="53" textPosition="off" textSize="medium" textColor="Black" width="65" height="90" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="32">
             <code>1:ahk&lt;:4RP1^10LeftHptOn|2:ahk&lt;:4RP1^10LeftHptOff</code>
           </button>
-          <button name="10LeftHptLabel" type="label" top="122" left="64" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="23">
+          <button name="10LeftHptLabel" type="label" top="122" left="64" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="33">
             <code>
             </code>
           </button>
-          <button name="08TestStep" type="label" top="318" left="308" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="24">
+          <button name="08TestStep" type="label" top="318" left="308" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="34">
             <code>
             </code>
           </button>
-          <button name="07HUDBrtGP" type="gp" top="297" left="218" textPosition="off" textSize="medium" textColor="Black" width="70" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="25">
+          <button name="07HUDBrtGP" type="gp" top="297" left="218" textPosition="off" textSize="medium" textColor="Black" width="70" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="35">
             <code>1:ahk&lt;:4RP1^07HUDBrtDay|2:ahk&lt;:4RP1^07HUDBrtNight|4:ahk&lt;:4RP1^07HUDBrtAuto</code>
           </button>
-          <button name="06HUDAltGP" type="gp" top="297" left="134" textPosition="off" textSize="medium" textColor="Black" width="72" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="26">
+          <button name="06HUDAltGP" type="gp" top="297" left="134" textPosition="off" textSize="medium" textColor="Black" width="72" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="36">
             <code>1:ahk&lt;:4RP1^06HUDAltRadar|2:ahk&lt;:4RP1^06HUDAltAuto|4:ahk&lt;:4RP1^06HUDAltBaro</code>
           </button>
-          <button name="05HUDVelocityGP" type="gp" top="297" left="53" textPosition="off" textSize="medium" textColor="Black" width="72" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="27">
+          <button name="05HUDVelocityGP" type="gp" top="297" left="53" textPosition="off" textSize="medium" textColor="Black" width="72" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="37">
             <code>1:ahk&lt;:4RP1^05HUDVelocityCAS|2:ahk&lt;:4RP1^05HUDVelocityGND|4:ahk&lt;:4RP1^05HUDVelocityTAS</code>
           </button>
-          <button name="04ReticleGP" type="gp" top="200" left="297" textPosition="off" textSize="medium" textColor="Black" width="70" height="83" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="28">
+          <button name="04ReticleGP" type="gp" top="200" left="297" textPosition="off" textSize="medium" textColor="Black" width="70" height="83" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="38">
             <code>1:ahk&lt;:4RP1^04ReticleStby|2:ahk&lt;:4RP1^04ReticleOff|4:ahk&lt;:4RP1^04ReticlePri</code>
           </button>
-          <button name="04ReticleLabel" type="label" top="220" left="304" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="29">
+          <button name="04ReticleLabel" type="label" top="220" left="304" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="39">
             <code>
             </code>
           </button>
-          <button name="03HUDDEDGP" type="gp" top="200" left="218" textPosition="off" textSize="medium" textColor="Black" width="70" height="83" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="30">
+          <button name="03HUDDEDGP" type="gp" top="200" left="218" textPosition="off" textSize="medium" textColor="Black" width="70" height="83" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="40">
             <code>1:ahk&lt;:4RP1^03HUDDEDDED|2:ahk&lt;:4RP1^03HUDDEDOff|4:ahk&lt;:4RP1^03HUDDEDPFL</code>
           </button>
-          <button name="02PitchLadderGP" type="gp" top="200" left="134" textPosition="off" textSize="medium" textColor="Black" width="71" height="83" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="31">
+          <button name="02PitchLadderGP" type="gp" top="200" left="134" textPosition="off" textSize="medium" textColor="Black" width="71" height="83" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="41">
             <code>1:ahk&lt;:4RP1^02PitchLadderATTFPM|2:ahk&lt;:4RP1^02PitchLadderOff|4:ahk&lt;:4RP1^02PitchLadderFPM</code>
           </button>
-          <button name="01ScalesGP" type="gp" top="200" left="51" textPosition="off" textSize="medium" textColor="Black" width="71" height="82" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="32">
+          <button name="01ScalesGP" type="gp" top="200" left="51" textPosition="off" textSize="medium" textColor="Black" width="71" height="82" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="42">
             <code>1:ahk&lt;:4RP1^01ScalesVVVAH|2:ahk&lt;:4RP1^01ScalesOff|4:ahk&lt;:4RP1^01ScalesVAH</code>
           </button>
-          <button name="05HUDVelocityLabel" type="label" top="317" left="58" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="37">
+          <button name="05HUDVelocityLabel" type="label" top="317" left="58" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="47">
             <code>
             </code>
           </button>
-          <button name="06HUDAltLabel" type="label" top="317" left="143" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="38">
+          <button name="06HUDAltLabel" type="label" top="317" left="143" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="48">
             <code>
             </code>
           </button>
-          <button name="07HUDBrtLabel" type="label" top="318" left="226" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="39">
+          <button name="07HUDBrtLabel" type="label" top="318" left="226" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="49">
             <code>
             </code>
           </button>
-          <button name="03HUDDEDLabel" type="label" top="226" left="230" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="40">
+          <button name="03HUDDEDLabel" type="label" top="226" left="230" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="50">
             <code>
             </code>
           </button>
-          <button name="02PitchLadderLabel" type="label" top="223" left="143" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="41">
+          <button name="02PitchLadderLabel" type="label" top="223" left="143" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="51">
             <code>
             </code>
           </button>
-          <button name="01ScalesLabel" type="label" top="222" left="58" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="42">
+          <button name="01ScalesLabel" type="label" top="222" left="58" textPosition="on" textSize="medium" textColor="Black" width="39" height="39" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="52">
             <code>
             </code>
           </button>
@@ -837,59 +849,77 @@
       </device>
       <device name="4RP2">
         <buttons>
-          <button name="08INSGP" type="gp" top="390" left="682" textPosition="off" textSize="medium" textColor="Black" width="106" height="104" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+          <button name="14TrimYawRight" type="ahk" top="670" left="753" textPosition="off" textSize="medium" textColor="" width="50" height="80" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+            <code>{Shift Down}{Alt Down}{PgUp}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="13TrimYawLeft" type="ahk" top="670" left="706" textPosition="off" textSize="medium" textColor="" width="48" height="80" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
+            <code>send {Shift Down}{Alt Down}{Ins}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="12TrimNoseDown" type="ahk" top="512" left="644" textPosition="off" textSize="medium" textColor="Black" width="105" height="62" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
+            <code>send {Shift Down}{Alt Down}{End}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="11TrimNoseUp" type="ahk" top="573" left="644" textPosition="off" textSize="medium" textColor="Black" width="105" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
+            <code>send {Shift Down}{Alt Down}{Home}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="10TrimRollRight" type="ahk" top="699" left="910" textPosition="off" textSize="medium" textColor="Black" width="91" height="66" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="4">
+            <code>send {Shift Down}{Alt Down}{PgDn}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="09TrimRollLeft" type="ahk" top="699" left="824" textPosition="off" textSize="medium" textColor="Black" width="85" height="66" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="5">
+            <code>send {Shift Down}{Alt Down}{Del}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="08INSGP" type="gp" top="390" left="682" textPosition="off" textSize="medium" textColor="Black" width="106" height="104" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="10">
             <code>1:ahk&lt;:4RP2^08INSNav|3:ahk&lt;:4RP2^08INSNorm|4:ahk&lt;:4RP2^08INSFlt|7:ahk&lt;:4RP2^08INSOff</code>
           </button>
-          <button name="08INSLabel" type="label" top="405" left="702" textPosition="on" textSize="medium" textColor="Black" width="75" height="75" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/knob3LeftDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
+          <button name="08INSLabel" type="label" top="404" left="702" textPosition="on" textSize="medium" textColor="Black" width="75" height="75" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/knob3LeftDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="11">
             <code>
             </code>
           </button>
-          <button name="07DLGP" type="gp" top="410" left="914" textPosition="off" textSize="medium" textColor="Black" width="64" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
+          <button name="07DLGP" type="gp" top="401" left="914" textPosition="off" textSize="medium" textColor="Black" width="64" height="94" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="12">
             <code>1:ahk&lt;:4RP2^07DLOn|2:ahk&lt;:4RP2^07DLOff</code>
           </button>
-          <button name="07DLLabel" type="label" top="425" left="924" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
+          <button name="07DLLabel" type="label" top="425" left="924" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="13">
             <code>
             </code>
           </button>
-          <button name="06GPSGP" type="gp" top="411" left="830" textPosition="off" textSize="medium" textColor="Black" width="60" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="4">
+          <button name="06GPSGP" type="gp" top="401" left="830" textPosition="off" textSize="medium" textColor="Black" width="63" height="95" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="14">
             <code>1:ahk&lt;:4RP2^06GPSOn|2:ahk&lt;:4RP2^06GPSOff</code>
           </button>
-          <button name="06GPSLabel" type="label" top="425" left="833" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="5">
+          <button name="06GPSLabel" type="label" top="425" left="833" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="15">
             <code>
             </code>
           </button>
-          <button name="05UFCGP" type="gp" top="271" left="913" textPosition="off" textSize="medium" textColor="Black" width="60" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="6">
+          <button name="05UFCGP" type="gp" top="271" left="913" textPosition="off" textSize="medium" textColor="Black" width="67" height="82" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="16">
             <code>1:ahk&lt;:4RP2^05UFCOn|2:ahk&lt;:4RP2^05UFCOff</code>
           </button>
-          <button name="05UFCLabel" type="label" top="285" left="920" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="7">
+          <button name="05UFCLabel" type="label" top="285" left="920" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="17">
             <code>
             </code>
           </button>
-          <button name="04MFDGP" type="gp" top="271" left="827" textPosition="off" textSize="medium" textColor="Black" width="55" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="8">
+          <button name="04MFDGP" type="gp" top="271" left="827" textPosition="off" textSize="medium" textColor="Black" width="62" height="83" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="18">
             <code>1:ahk&lt;:4RP2^04MFDOn|2:ahk&lt;:4RP2^04MFDOff</code>
           </button>
-          <button name="04MFDLabel" type="label" top="286" left="833" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="9">
+          <button name="04MFDLabel" type="label" top="287" left="833" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="19">
             <code>
             </code>
           </button>
-          <button name="03SMSGP" type="gp" top="271" left="734" textPosition="off" textSize="medium" textColor="Black" width="60" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="10">
+          <button name="03SMSGP" type="gp" top="271" left="734" textPosition="off" textSize="medium" textColor="Black" width="68" height="83" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="20">
             <code>1:ahk&lt;:4RP2^03SMSOn|2:ahk&lt;:4RP2^03SMSOff</code>
           </button>
-          <button name="03SMSLabel" type="label" top="287" left="741" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="11">
+          <button name="03SMSLabel" type="label" top="287" left="741" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="21">
             <code>
             </code>
           </button>
-          <button name="02FCCGP" type="gp" top="271" left="653" textPosition="off" textSize="medium" textColor="Black" width="55" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="12">
+          <button name="02FCCGP" type="gp" top="271" left="653" textPosition="off" textSize="medium" textColor="Black" width="61" height="84" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="22">
             <code>1:ahk&lt;:4RP2^02FCCOn|2:ahk&lt;:4RP2^02FCCOff</code>
           </button>
-          <button name="02FCCLabel" type="label" top="286" left="659" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="13">
+          <button name="02FCCLabel" type="label" top="287" left="659" textPosition="on" textSize="medium" textColor="Black" width="33" height="55" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swGrayDown.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="23">
             <code>
             </code>
           </button>
-          <button name="01AirSourceGP" type="gp" top="120" left="870" textPosition="off" textSize="medium" textColor="Black" width="116" height="112" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="14">
+          <button name="01AirSourceGP" type="gp" top="120" left="870" textPosition="off" textSize="medium" textColor="Black" width="116" height="112" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="24">
             <code>1:ahk&lt;:4RP2^01AirSourceNorm|2:ahk&lt;:4RP2^01AirSourceRam|3:ahk&lt;:4RP2^01AirSourceOff|4:ahk&lt;:4RP2^01AirSourceDump</code>
           </button>
-          <button name="01AirSourceLabel" type="label" top="137" left="885" textPosition="on" textSize="medium" textColor="Black" width="75" height="75" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/knob3Left.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="15">
+          <button name="01AirSourceLabel" type="label" top="137" left="885" textPosition="on" textSize="medium" textColor="Black" width="75" height="75" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/knob3Left.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="25">
             <code>
             </code>
           </button>

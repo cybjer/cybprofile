@@ -1114,6 +1114,18 @@
         <button name="13RAltGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>1:ahk&lt;:4RP1^13RAltOn|2:ahk&lt;:4RP1^13RAltOff|4:ahk&lt;:4RP1^13RAltStby</code>
         </button>
+        <button name="14InteriorLightCW" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{5}{Alt Up}{Ctrl Up}{Shift Up}</code>
+        </button>
+        <button name="15InteriorLightCCW" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{6}{Alt Up}{Ctrl Up}{Shift Up}</code>
+        </button>
+        <button name="16InstrumentLightCW" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{7}{Alt Up}{Ctrl Up}{Shift Up}</code>
+        </button>
+        <button name="16InstrumentLightCCW" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{8}{Alt Up}{Ctrl Up}{Shift Up}</code>
+        </button>
       </buttons>
     </device>
     <device name="3MP1">
@@ -1430,6 +1442,24 @@
         </button>
         <button name="08INSGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>1:ahk&lt;:4RP2^08INSNav|3:ahk&lt;:4RP2^08INSNorm|4:ahk&lt;:4RP2^08INSFlt|7:ahk&lt;:4RP2^08INSOff</code>
+        </button>
+        <button name="09TrimRollLeft" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Alt Down}{Del}{Alt Up}{Shift Up}</code>
+        </button>
+        <button name="10TrimRollRight" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Alt Down}{PgDn}{Alt Up}{Shift Up}</code>
+        </button>
+        <button name="11TrimNoseUp" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Alt Down}{Home}{Alt Up}{Shift Up}</code>
+        </button>
+        <button name="12TrimNoseDown" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Alt Down}{End}{Alt Up}{Shift Up}</code>
+        </button>
+        <button name="13TrimYawLeft" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Alt Down}{Ins}{Alt Up}{Shift Up}</code>
+        </button>
+        <button name="14TrimYawRight" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>{Shift Down}{Alt Down}{PgUp}{Alt Up}{Shift Up}</code>
         </button>
       </buttons>
     </device>
