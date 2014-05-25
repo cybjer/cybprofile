@@ -565,14 +565,14 @@
       </device>
       <device name="3MP1">
         <buttons>
-          <button name="02MFDMarquee" type="label" top="272" left="0" textPosition="on" textSize="medium" textColor="Black" width="1026" height="499" delay="no" buttonPack="canopyEjectSeat" buttonFile="canopyEjectSeat/MFDMarquee.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="46">
+          <button name="02MFDMarquee" type="label" top="272" left="0" textPosition="on" textSize="medium" textColor="Black" width="1031" height="499" delay="no" buttonPack="canopyEjectSeat" buttonFile="canopyEjectSeat/MFDMarquee.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="46">
             <code>
             </code>
           </button>
-          <button name="01MFDLeftView" type="web" top="325" left="50" textPosition="off" textSize="medium" textColor="Black" width="389" height="389" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="47">
+          <button name="01MFDLeftView" type="web" top="324" left="50" textPosition="off" textSize="medium" textColor="Black" width="389" height="389" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="2" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="47">
             <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/left" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
           </button>
-          <button name="01MFDRightView" type="web" top="326" left="577" textPosition="off" textSize="medium" textColor="Black" width="389" height="389" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="52">
+          <button name="01MFDRightView" type="web" top="324" left="580" textPosition="off" textSize="medium" textColor="Black" width="389" height="389" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="2" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="52">
             <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/right" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
           </button>
         </buttons>
@@ -849,22 +849,22 @@
       </device>
       <device name="4RP2">
         <buttons>
-          <button name="14TrimYawRight" type="ahk" top="670" left="753" textPosition="off" textSize="medium" textColor="" width="50" height="80" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
-            <code>{Shift Down}{Alt Down}{PgUp}{Alt Up}{Shift Up}</code>
+          <button name="14TrimYawRight" type="ahk" top="670" left="753" textPosition="off" textSize="medium" textColor="" width="50" height="80" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+            <code>send {Shift Down}{Alt Down}{PgUp}{Alt Up}{Shift Up}</code>
           </button>
-          <button name="13TrimYawLeft" type="ahk" top="670" left="706" textPosition="off" textSize="medium" textColor="" width="48" height="80" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
+          <button name="13TrimYawLeft" type="ahk" top="670" left="706" textPosition="off" textSize="medium" textColor="" width="48" height="80" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
             <code>send {Shift Down}{Alt Down}{Ins}{Alt Up}{Shift Up}</code>
           </button>
-          <button name="12TrimNoseDown" type="ahk" top="512" left="644" textPosition="off" textSize="medium" textColor="Black" width="105" height="62" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
+          <button name="12TrimNoseDown" type="ahk" top="512" left="644" textPosition="off" textSize="medium" textColor="Black" width="105" height="62" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
             <code>send {Shift Down}{Alt Down}{End}{Alt Up}{Shift Up}</code>
           </button>
-          <button name="11TrimNoseUp" type="ahk" top="573" left="644" textPosition="off" textSize="medium" textColor="Black" width="105" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
+          <button name="11TrimNoseUp" type="ahk" top="573" left="644" textPosition="off" textSize="medium" textColor="Black" width="105" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
             <code>send {Shift Down}{Alt Down}{Home}{Alt Up}{Shift Up}</code>
           </button>
-          <button name="10TrimRollRight" type="ahk" top="699" left="910" textPosition="off" textSize="medium" textColor="Black" width="91" height="66" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="4">
+          <button name="10TrimRollRight" type="ahk" top="699" left="910" textPosition="off" textSize="medium" textColor="Black" width="91" height="66" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="4">
             <code>send {Shift Down}{Alt Down}{PgDn}{Alt Up}{Shift Up}</code>
           </button>
-          <button name="09TrimRollLeft" type="ahk" top="699" left="824" textPosition="off" textSize="medium" textColor="Black" width="85" height="66" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="5">
+          <button name="09TrimRollLeft" type="ahk" top="699" left="824" textPosition="off" textSize="medium" textColor="Black" width="85" height="66" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="5">
             <code>send {Shift Down}{Alt Down}{Del}{Alt Up}{Shift Up}</code>
           </button>
           <button name="08INSGP" type="gp" top="390" left="682" textPosition="off" textSize="medium" textColor="Black" width="106" height="104" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="10">
