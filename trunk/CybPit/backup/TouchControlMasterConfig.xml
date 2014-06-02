@@ -6,7 +6,7 @@
   <activities>
     <activity name="01LeftPanel" deviceType="1" />
     <activity name="02ICPPanel" deviceType="1" />
-    <activity name="03CenterMFDPanel" deviceType="1" />
+    <activity name="03MFDPanel" deviceType="1" />
     <activity name="04RightPanel" deviceType="1" />
   </activities>
   <devices>
@@ -548,7 +548,7 @@ Send {j up}{Ctrl Up}</code>
           <code>
           </code>
         </button>
-        <button name="03MFDPanel" type="link" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="CybPit^03CenterMFDPanel" repeat="1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="03MFDPanel" type="link" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="CybPit^03MFDPanel" repeat="1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>
           </code>
         </button>
@@ -1459,33 +1459,112 @@ send {Shift up}{F1 up}</code>
         </button>
         <button name="09TrimRollLeft" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Alt Down}{Del down}
-sleep 200 
+sleep 100 
 send {Del up}{Alt Up}{Shift Up}</code>
         </button>
         <button name="10TrimRollRight" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Alt Down}{PgDn down}
-sleep 200
+sleep 100
 send {PgDn up}{Alt Up}{Shift Up}</code>
         </button>
         <button name="11TrimNoseUp" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Alt Down}{Home down}
-sleep 200 
+sleep 100 
 send {Home up}{Alt Up}{Shift Up}</code>
         </button>
         <button name="12TrimNoseDown" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Alt Down}{End down}
-Sleep 200
+Sleep 100
 Send {End up}{Alt Up}{Shift Up}</code>
         </button>
         <button name="13TrimYawLeft" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Alt Down}{Ins down}
-sleep 200
+sleep 100
 send {Ins up}{Alt Up}{Shift Up}</code>
         </button>
         <button name="14TrimYawRight" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Alt Down}{PgUp down}
-sleep 200
+sleep 100
 send {PgUp up}{Alt Up}{Shift Up}</code>
+        </button>
+        <button name="15DigitalBUP" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{e}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '15DigitalBUP[@]switchAndKnob/swGrayUp.png'</script>
+        </button>
+        <button name="15DigitalBUPOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{r}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '15DigitalBUP[@]switchAndKnob/swGrayDown.png'</script>
+        </button>
+        <button name="15DigitalBUPGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:4RP2^15DigitalBUP|2:ahk&lt;:4RP2^15DigitalBUPOff</code>
+        </button>
+        <button name="15DigitalBUPLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="16ManualFlyupEnable" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{t}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '16MaualFlyupLabel[@]switchAndKnob/swGrayUp.png'</script>
+        </button>
+        <button name="16ManualFlyupDisable" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{y}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '16MaualFlyupLabel[@]switchAndKnob/swGrayDown.png'</script>
+        </button>
+        <button name="16ManualFlyupLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="16ManualFlyupGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:4RP2^16ManualFlyupEnable|2:ahk&lt;:4RP2^16ManualFlyupDisable</code>
+        </button>
+        <button name="17AltFlapsExtend" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{f}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '17AltFlapsLabel[@]switchAndKnob/swGrayUp.png'</script>
+        </button>
+        <button name="17AltFlapsNorm" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{g}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '17AltFlapsLabel[@]switchAndKnob/swGrayDown.png'</script>
+        </button>
+        <button name="17AltFlapsLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="17AltFlapsGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code />
+        </button>
+        <button name="18LEFLock" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{j}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '18LEFLabel[@]switchAndKnob/swGrayUp.png'</script>
+        </button>
+        <button name="18LEFAuto" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{k}{Alt Up}{Ctrl Up}{Shift Up}</code>
+          <script>return '18LEFLabel[@]switchAndKnob/swGrayDown.png'</script>
+        </button>
+        <button name="18LEFGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>1:ahk&lt;:4RP2^18LEFLock|2:ahk&lt;:4RP2^18LEFAuto</code>
+        </button>
+        <button name="18LEFLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="19FLCSReset" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{u}{Alt Up}{Ctrl Up}{Shift Up}</code>
+        </button>
+        <button name="20FLTBit" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Shift Down}{Ctrl Down}{Alt Down}{o}{Alt Up}{Ctrl Up}{Shift Up}</code>
+        </button>
+      </buttons>
+    </device>
+    <device name="4RP3">
+      <buttons>
+        <button name="01HeadTracker" type="cmd" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>E:\Program Files (x86)\FreeTrack\FreeTrack.exe</code>
+        </button>
+        <button name="02MFDExtractor" type="cmd" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>E:\Program Files (x86)\Falcon MFD Extractor\MFDExtractor.exe</code>
+        </button>
+        <button name="FalconBMS" type="cmd" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>E:\Program Files (x86)\Falcon BMS 4.32\Launcher.exe</code>
         </button>
       </buttons>
     </device>
