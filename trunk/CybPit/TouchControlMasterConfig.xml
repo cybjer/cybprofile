@@ -8,6 +8,7 @@
     <activity name="02ICPPanel" deviceType="1" />
     <activity name="03MFDPanel" deviceType="1" />
     <activity name="04RightPanel" deviceType="1" />
+    <activity name="CybPit" />
   </activities>
   <devices>
     <device name="1LP1">
@@ -165,7 +166,7 @@ Send {j up}{Ctrl Up}</code>
           </code>
         </button>
         <button name="6AuxComBackup" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>send {Shift Down}{Alt Down}{u}{Alt Up}{Shift Up}</code>
+          <code>send {Shift Down}{Alt Down}{y}{Alt Up}{Shift Up}</code>
           <script>return '6AuxComLabel[@]switchAndKnob/knob5UpLeft.png'</script>
         </button>
         <button name="6AuxComUFC" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
@@ -1290,14 +1291,14 @@ send {Shift up}{F1 up}</code>
     </device>
     <device name="3MP4">
       <buttons>
-        <button name="01CanopyToogle" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="01CanopyToogle" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Ctrl Down}{c}{Ctrl Up}{Shift Up}</code>
         </button>
-        <button name="02SeatOn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="02SeatOn" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send  {Shift Down}{Alt Down}{z}{Alt Up}{Ctrl Up}</code>
           <script>return '02SeatLabel[@]canopyEjectSeat/EjectSeatArm.png'</script>
         </button>
-        <button name="02SeatOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="02SeatOff" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send  {Shift Down}{Alt Down}{x}{Alt Up}{Ctrl Up}</code>
           <script>return '02SeatLabel[@]canopyEjectSeat/EjectSeat.png'</script>
         </button>
@@ -1308,14 +1309,26 @@ send {Shift up}{F1 up}</code>
         <button name="02SeatGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>3:ahk&lt;:3MP4^02SeatOff|4:ahk&lt;:3MP4^02SeatOn</code>
         </button>
-        <button name="03RWRPower" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="03RWRPower" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {F2}</code>
         </button>
-        <button name="04RWRSetSearch" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="04RWRSetSearch" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {End}</code>
         </button>
-        <button name="03RWRSetGround" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="03RWRSetGround" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Home}</code>
+        </button>
+        <button name="05EjectSeat" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>send {Ctrl Down}{e Down}
+Sleep 2000 
+send {e Up}{Ctrl Up}</code>
+        </button>
+        <button name="06RWRLabel" type="label" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
+        <button name="06RWRViewer" type="web" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/rwr" mce_src="%touchcontrolserver/grabber%" style="width:82%;height:82%"/&gt;&lt;/body&gt;</code>
         </button>
       </buttons>
     </device>
@@ -1561,7 +1574,7 @@ send {PgUp up}{Alt Up}{Shift Up}</code>
           <code>E:\Program Files (x86)\FreeTrack\FreeTrack.exe</code>
         </button>
         <button name="02MFDExtractor" type="cmd" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>E:\Program Files (x86)\Falcon MFD Extractor\MFDExtractor.exe</code>
+          <code>C:\Program Files (x86)\Falcon MFD Extractor\MFDExtractor.exe</code>
         </button>
         <button name="FalconBMS" type="cmd" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>E:\Program Files (x86)\Falcon BMS 4.32\Launcher.exe</code>
