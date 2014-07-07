@@ -1053,219 +1053,279 @@ send {Del up}{Alt Up}{Shift Up}</code>
     <activity name="05MainPanel" location="CybPit" active="yes" mousekeyboard="no" index="0" deviceType="1" background="5MainPanel.png" image="touchcontrol_remote_CybPit^05MainPanel.jpg">
       <device name="2IP1">
         <buttons>
-          <button name="10AltPressInc" type="ahk" top="700" left="517" textPosition="off" textSize="medium" textColor="Black" width="42" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="52">
+          <button name="10AltPressInc" type="ahk" top="700" left="517" textPosition="off" textSize="medium" textColor="Black" width="42" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="72">
             <code>send {Shift Down}{Ctrl Down}{q}{Ctrl Up}{Shift Up}</code>
           </button>
-          <button name="10AltPressDec" type="ahk" top="700" left="472" textPosition="off" textSize="medium" textColor="Black" width="44" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="53">
+          <button name="10AltPressDec" type="ahk" top="700" left="472" textPosition="off" textSize="medium" textColor="Black" width="44" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="73">
             <code>send {Shift Down}{Ctrl Down}{w}{Ctrl Up}{Shift Up}</code>
           </button>
-          <button name="09HSIHeadingInc" type="ahk" top="637" left="450" textPosition="off" textSize="medium" textColor="Black" width="50" height="60" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="54">
+          <button name="09HSIHeadingInc" type="ahk" top="637" left="450" textPosition="off" textSize="medium" textColor="Black" width="50" height="60" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="74">
             <code>send {Ctrl Down}{Alt Down}{m}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="09HSIHeadingDec" type="ahk" top="637" left="400" textPosition="off" textSize="medium" textColor="Black" width="50" height="60" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="55">
+          <button name="09HSIHeadingDec" type="ahk" top="637" left="400" textPosition="off" textSize="medium" textColor="Black" width="50" height="60" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="75">
             <code>send  {Ctrl Down}{Alt Down}{n}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="08HSICourseInc" type="ahk" top="637" left="578" textPosition="off" textSize="medium" textColor="Black" width="50" height="60" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="56">
+          <button name="08HSICourseInc" type="ahk" top="637" left="578" textPosition="off" textSize="medium" textColor="Black" width="50" height="60" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="76">
             <code>send {Ctrl Down}{Alt Down}{b}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="08HSICourseDec" type="ahk" top="637" left="529" textPosition="off" textSize="medium" textColor="Black" width="50" height="60" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="57">
+          <button name="08HSICourseDec" type="ahk" top="637" left="529" textPosition="off" textSize="medium" textColor="Black" width="50" height="60" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="77">
             <code>send {Ctrl Down}{Alt Down}{v}{Alt Up}{Ctrl Up}</code>
           </button>
         </buttons>
       </device>
       <device name="2IP2">
         <buttons>
-          <button name="29DEDMarq" type="label" top="9" left="747" textPosition="on" textSize="medium" textColor="Black" width="279" height="103" delay="no" buttonPack="canopyEjectSeat" buttonFile="canopyEjectSeat/ded.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="24">
+          <button name="29DEDMarq" type="label" top="9" left="747" textPosition="on" textSize="medium" textColor="Black" width="279" height="103" delay="no" buttonPack="canopyEjectSeat" buttonFile="canopyEjectSeat/ded.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="44">
             <code>
             </code>
           </button>
-          <button name="28DEDView" type="web" top="12" left="748" textPosition="off" textSize="medium" textColor="Black" width="277" height="100" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="26">
+          <button name="28DEDView" type="web" top="12" left="748" textPosition="off" textSize="medium" textColor="Black" width="277" height="100" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="46">
             <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/ded" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
           </button>
-          <button name="27HUDBrightnessUp" type="ahk" top="59" left="279" textPosition="off" textSize="medium" textColor="Black" width="53" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="27">
+          <button name="27HUDBrightnessUp" type="ahk" top="59" left="279" textPosition="off" textSize="medium" textColor="Black" width="53" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="47">
             <code>Send {Alt Down}{]}{Alt Up}</code>
           </button>
-          <button name="27HUDBrightnessDown" type="ahk" top="117" left="279" textPosition="off" textSize="medium" textColor="Black" width="53" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="28">
+          <button name="27HUDBrightnessDown" type="ahk" top="117" left="279" textPosition="off" textSize="medium" textColor="Black" width="53" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="48">
             <code>Send {Alt Down}{[}{Alt Up}</code>
           </button>
-          <button name="26ICPDriftCOGP" type="gp" top="272" left="528" textPosition="off" textSize="medium" textColor="Black" width="62" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="29">
+          <button name="26ICPDriftCOGP" type="gp" top="272" left="528" textPosition="off" textSize="medium" textColor="Black" width="62" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="49">
             <code>1:ahk&lt;:2IP2^26ICPDriftCOOn|2:ahk&lt;:2IP2^26ICPDriftCOOff</code>
           </button>
-          <button name="26ICPDriftCOLabel" type="label" top="295" left="541" textPosition="on" textSize="medium" textColor="Black" width="33" height="33" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedMidV.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="30">
+          <button name="26ICPDriftCOLabel" type="label" top="295" left="541" textPosition="on" textSize="medium" textColor="Black" width="33" height="33" delay="no" buttonPack="switchAndKnob" buttonFile="switchAndKnob/swRedMidV.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="50">
             <code>
             </code>
           </button>
-          <button name="25ICPDEDGP" type="gp" top="277" left="425" textPosition="off" textSize="medium" textColor="Black" width="77" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="31">
+          <button name="25ICPDEDGP" type="gp" top="277" left="425" textPosition="off" textSize="medium" textColor="Black" width="77" height="77" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="51">
             <code>1:ahk:2IP2^22ICPDEDUp|2:ahk:2IP2^21ICPDEDDown|3:ahk:2IP2^24ICPDEDReset|4:ahk:2IP2^23ICPDEDSeq</code>
           </button>
-          <button name="20ICPPrevious" type="ahk" top="314" left="354" textPosition="off" textSize="medium" textColor="Black" width="57" height="44" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="32">
+          <button name="20ICPPrevious" type="ahk" top="314" left="354" textPosition="off" textSize="medium" textColor="Black" width="57" height="44" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="52">
             <code>send {PgDn}</code>
           </button>
-          <button name="19ICPNext" type="ahk" top="271" left="354" textPosition="off" textSize="medium" textColor="Black" width="57" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="33">
+          <button name="19ICPNext" type="ahk" top="271" left="354" textPosition="off" textSize="medium" textColor="Black" width="57" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="53">
             <code>send {PgUp}</code>
           </button>
-          <button name="18ICPEnter" type="ahk" top="140" left="554" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="34">
+          <button name="18ICPEnter" type="ahk" top="140" left="554" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="54">
             <code>send {NumpadEnter}</code>
           </button>
-          <button name="17ICPClear" type="ahk" top="73" left="556" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="35">
+          <button name="17ICPClear" type="ahk" top="73" left="556" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="55">
             <code>send {NumpadAdd}</code>
           </button>
-          <button name="16ICPZero" type="ahk" top="208" left="534" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="36">
+          <button name="16ICPZero" type="ahk" top="208" left="534" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="56">
             <code>send {Numpad0}</code>
           </button>
-          <button name="15ICPNine" type="ahk" top="205" left="469" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="37">
+          <button name="15ICPNine" type="ahk" top="205" left="469" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="57">
             <code>send {Numpad9}</code>
           </button>
-          <button name="14ICPEight" type="ahk" top="205" left="402" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="38">
+          <button name="14ICPEight" type="ahk" top="205" left="402" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="58">
             <code>send {Numpad8}</code>
           </button>
-          <button name="13ICPMark" type="ahk" top="205" left="339" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="39">
+          <button name="13ICPMark" type="ahk" top="205" left="339" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="59">
             <code>send {Numpad7}</code>
           </button>
-          <button name="12ICPSix" type="ahk" top="140" left="469" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="40">
+          <button name="12ICPSix" type="ahk" top="140" left="469" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="60">
             <code>send {Numpad6}</code>
           </button>
-          <button name="11ICPCrus" type="ahk" top="140" left="402" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="41">
+          <button name="11ICPCrus" type="ahk" top="140" left="402" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="61">
             <code>send {Numpad5}</code>
           </button>
-          <button name="10ICPStpt" type="ahk" top="140" left="338" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="42">
+          <button name="10ICPStpt" type="ahk" top="140" left="338" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="62">
             <code>send {Numpad4}</code>
           </button>
-          <button name="09ICPThree" type="ahk" top="73" left="467" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="43">
+          <button name="09ICPThree" type="ahk" top="73" left="467" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="63">
             <code>send {Numpad3}</code>
           </button>
-          <button name="08ICPAlow" type="ahk" top="74" left="402" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="44">
+          <button name="08ICPAlow" type="ahk" top="74" left="402" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="64">
             <code>send {Numpad2}</code>
           </button>
-          <button name="07ICPTILS" type="ahk" top="74" left="338" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="45">
+          <button name="07ICPTILS" type="ahk" top="74" left="338" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="65">
             <code>send {Numpad1}</code>
           </button>
-          <button name="06ICPAG" type="ahk" top="8" left="643" textPosition="off" textSize="medium" textColor="Black" width="55" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="46">
+          <button name="06ICPAG" type="ahk" top="8" left="643" textPosition="off" textSize="medium" textColor="Black" width="55" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="66">
             <code>send {Ctrl Down}{NumpadSub}{Ctrl Up}</code>
           </button>
-          <button name="05ICPAA" type="ahk" top="8" left="581" textPosition="off" textSize="medium" textColor="Black" width="55" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="47">
+          <button name="05ICPAA" type="ahk" top="8" left="581" textPosition="off" textSize="medium" textColor="Black" width="55" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="67">
             <code>send {Ctrl Down}{NumpadMult}{Ctrl Up}</code>
           </button>
-          <button name="04ICPList" type="ahk" top="8" left="520" textPosition="off" textSize="medium" textColor="Black" width="55" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="48">
+          <button name="04ICPList" type="ahk" top="8" left="520" textPosition="off" textSize="medium" textColor="Black" width="55" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="68">
             <code>send {NumpadSub}</code>
           </button>
-          <button name="03ICPIff" type="ahk" top="8" left="461" textPosition="off" textSize="medium" textColor="Black" width="55" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="49">
+          <button name="03ICPIff" type="ahk" top="8" left="461" textPosition="off" textSize="medium" textColor="Black" width="55" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="69">
             <code>send {Ctrl Down}{NumpadDiv}{Ctrl Up}</code>
           </button>
-          <button name="02ICPCom2" type="ahk" top="8" left="399" textPosition="off" textSize="medium" textColor="Black" width="55" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="50">
+          <button name="02ICPCom2" type="ahk" top="8" left="399" textPosition="off" textSize="medium" textColor="Black" width="55" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="70">
             <code>send {NumpadMult}</code>
           </button>
-          <button name="01ICPCom1" type="ahk" top="8" left="338" textPosition="off" textSize="medium" textColor="Black" width="55" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="51">
+          <button name="01ICPCom1" type="ahk" top="8" left="338" textPosition="off" textSize="medium" textColor="Black" width="55" height="55" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="71">
             <code>send {NumpadDiv}</code>
           </button>
         </buttons>
       </device>
       <device name="3MP1">
         <buttons>
-          <button name="04TachometerView" type="web" top="123" left="820" textPosition="off" textSize="medium" textColor="Black" width="150" height="150" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="22">
+          <button name="04TachometerView" type="web" top="123" left="820" textPosition="off" textSize="medium" textColor="Black" width="150" height="150" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="42">
             <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/tachometer" mce_src="%touchcontrolserver/grabber%" style="width:60%;height:60%"/&gt;&lt;/body&gt;</code>
           </button>
-          <button name="03HSIView" type="web" top="389" left="391" textPosition="off" textSize="medium" textColor="Black" width="242" height="242" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="25">
+          <button name="03HSIView" type="web" top="389" left="391" textPosition="off" textSize="medium" textColor="Black" width="242" height="242" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="45">
             <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/hsi" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
           </button>
-          <button name="MFDLeftOpq" type="label" top="381" left="0" textPosition="on" textSize="medium" textColor="Black" width="1024" height="389" delay="no" buttonPack="canopyEjectSeat" buttonFile="canopyEjectSeat/MainMFD.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="59">
+          <button name="MFDLeftOpq" type="label" top="381" left="0" textPosition="on" textSize="medium" textColor="Black" width="1024" height="390" delay="no" buttonPack="canopyEjectSeat" buttonFile="canopyEjectSeat/MainMFD.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="79">
             <code>
             </code>
           </button>
-          <button name="01MFDLeftView" type="web" top="423" left="42" textPosition="off" textSize="medium" textColor="Black" width="305" height="300" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="60">
+          <button name="01MFDLeftView" type="web" top="423" left="42" textPosition="off" textSize="medium" textColor="Black" width="305" height="300" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="80">
             <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/left" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
           </button>
-          <button name="01MFDRightView" type="web" top="425" left="675" textPosition="off" textSize="medium" textColor="Black" width="308" height="300" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="61">
+          <button name="01MFDRightView" type="web" top="425" left="675" textPosition="off" textSize="medium" textColor="Black" width="309" height="300" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="81">
             <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/right" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
           </button>
         </buttons>
       </device>
       <device name="3MP2">
         <buttons>
-          <button name="20OSB" type="ahk" top="468" left="0" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
+          <button name="20OSB" type="ahk" top="468" left="0" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="22">
             <code>send {Ctrl Down}{Alt Down}{Numpad0}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="19LOSB" type="ahk" top="510" left="0" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
+          <button name="19LOSB" type="ahk" top="510" left="0" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="23">
             <code>send {Ctrl Down}{Alt Down}{Numpad9}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="18LOSB" type="ahk" top="552" left="0" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="4">
+          <button name="18LOSB" type="ahk" top="552" left="0" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="24">
             <code>send {Ctrl Down}{Alt Down}{Numpad8}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="17LOSB" type="ahk" top="594" left="0" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="5">
+          <button name="17LOSB" type="ahk" top="594" left="0" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="25">
             <code>send {Ctrl Down}{Alt Down}{Numpad7}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="16LOSB" type="ahk" top="636" left="0" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="6">
+          <button name="16LOSB" type="ahk" top="636" left="0" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="26">
             <code>send {Ctrl Down}{Alt Down}{Numpad6}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="15LOSB" type="ahk" top="717" left="80" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="7">
+          <button name="15LOSB" type="ahk" top="717" left="80" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="27">
             <code>send {Ctrl Down}{Alt Down}{Numpad5}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="14LOSB" type="ahk" top="717" left="126" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="8">
+          <button name="14LOSB" type="ahk" top="717" left="125" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="28">
             <code>send {Ctrl Down}{Alt Down}{Numpad4}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="13LOSB" type="ahk" top="717" left="172" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="9">
+          <button name="13LOSB" type="ahk" top="717" left="172" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="29">
             <code>send {Ctrl Down}{Alt Down}{Numpad3}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="12LOSB" type="ahk" top="717" left="218" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="10">
+          <button name="12LOSB" type="ahk" top="717" left="219" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="30">
             <code>send {Ctrl Down}{Alt Down}{Numpad2}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="11LOSB" type="ahk" top="717" left="264" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="11">
+          <button name="11LOSB" type="ahk" top="717" left="264" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="31">
             <code>send {Ctrl Down}{Alt Down}{Numpad1}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="10LOSB" type="ahk" top="636" left="340" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="12">
+          <button name="10LOSB" type="ahk" top="636" left="340" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="32">
             <code>send {Ctrl Down}{Alt Down}{0}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="09LOSB" type="ahk" top="594" left="340" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="13">
+          <button name="09LOSB" type="ahk" top="594" left="340" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="33">
             <code>send {Ctrl Down}{Alt Down}{9}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="08LOSB" type="ahk" top="552" left="340" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="14">
+          <button name="08LOSB" type="ahk" top="552" left="340" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="34">
             <code>send {Ctrl Down}{Alt Down}{8}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="07LOSB" type="ahk" top="510" left="340" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="15">
+          <button name="07LOSB" type="ahk" top="510" left="340" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="35">
             <code>send {Ctrl Down}{Alt Down}{7}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="06LOSB" type="ahk" top="468" left="340" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="16">
+          <button name="06LOSB" type="ahk" top="468" left="340" textPosition="off" textSize="medium" textColor="Black" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="36">
             <code>send {Ctrl Down}{Alt Down}{6}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="05LOSB" type="ahk" top="381" left="261" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="17">
+          <button name="05LOSB" type="ahk" top="381" left="263" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="37">
             <code>send {Ctrl Down}{Alt Down}{5}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="04LOSB" type="ahk" top="381" left="216" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="18">
+          <button name="04LOSB" type="ahk" top="381" left="218" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="38">
             <code>send {Ctrl Down}{Alt Down}{4}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="03LOSB" type="ahk" top="381" left="171" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="19">
+          <button name="03LOSB" type="ahk" top="381" left="172" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="39">
             <code>send {Ctrl Down}{Alt Down}{3}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="02LOSB" type="ahk" top="381" left="125" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="20">
+          <button name="02LOSB" type="ahk" top="381" left="125" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="40">
             <code>send {Ctrl Down}{Alt Down}{2}{Alt Up}{Ctrl Up}</code>
           </button>
-          <button name="01LOSB" type="ahk" top="381" left="80" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="21">
+          <button name="01LOSB" type="ahk" top="381" left="80" textPosition="off" textSize="medium" textColor="Black" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="41">
             <code>send {Ctrl Down}{Alt Down}{1}{Alt Up}{Ctrl Up}</code>
           </button>
         </buttons>
       </device>
       <device name="3MP3">
         <buttons>
+          <button name="20ROSB" type="ahk" top="468" left="634" textPosition="off" textSize="medium" textColor="" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+            <code>send {Shift Down}{Alt Down}{Numpad0}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="19ROSB" type="ahk" top="510" left="634" textPosition="off" textSize="medium" textColor="" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
+            <code>send {Shift Down}{Alt Down}{Numpad9}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="18ROSB" type="ahk" top="552" left="634" textPosition="off" textSize="medium" textColor="" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="2">
+            <code>send {Shift Down}{Alt Down}{Numpad8}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="17ROSB" type="ahk" top="594" left="634" textPosition="off" textSize="medium" textColor="" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="3">
+            <code>send {Shift Down}{Alt Down}{Numpad7}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="16ROSB" type="ahk" top="636" left="634" textPosition="off" textSize="medium" textColor="" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="4">
+            <code>send {Shift Down}{Alt Down}{Numpad6}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="15ROSB" type="ahk" top="719" left="715" textPosition="off" textSize="medium" textColor="" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="5">
+            <code>send {Shift Down}{Alt Down}{Numpad5}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="14ROSB" type="ahk" top="719" left="761" textPosition="off" textSize="medium" textColor="" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="6">
+            <code>send {Shift Down}{Alt Down}{Numpad4}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="13ROSB" type="ahk" top="719" left="807" textPosition="off" textSize="medium" textColor="" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="7">
+            <code>send {Shift Down}{Alt Down}{Numpad3}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="12ROSB" type="ahk" top="719" left="853" textPosition="off" textSize="medium" textColor="" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="8">
+            <code>send {Shift Down}{Alt Down}{Numpad2}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="11ROSB" type="ahk" top="719" left="899" textPosition="off" textSize="medium" textColor="" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="9">
+            <code>send {Shift Down}{Alt Down}{Numpad1}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="10ROSB" type="ahk" top="637" left="974" textPosition="off" textSize="medium" textColor="" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="10">
+            <code>send {Shift Down}{Alt Down}{0}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="09ROSB" type="ahk" top="595" left="974" textPosition="off" textSize="medium" textColor="" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="11">
+            <code>send {Shift Down}{Alt Down}{9}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="08ROSB" type="ahk" top="553" left="974" textPosition="off" textSize="medium" textColor="" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="12">
+            <code>send {Shift Down}{Alt Down}{8}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="07ROSB" type="ahk" top="511" left="974" textPosition="off" textSize="medium" textColor="" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="13">
+            <code>send {Shift Down}{Alt Down}{7}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="06ROSB" type="ahk" top="469" left="974" textPosition="off" textSize="medium" textColor="" width="50" height="42" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="14">
+            <code>send {Shift Down}{Alt Down}{6}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="05ROSB" type="ahk" top="381" left="897" textPosition="off" textSize="medium" textColor="" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="15">
+            <code>send {Shift Down}{Alt Down}{5}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="04ROSB" type="ahk" top="381" left="852" textPosition="off" textSize="medium" textColor="" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="16">
+            <code>send {Shift Down}{Alt Down}{4}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="03ROSB" type="ahk" top="381" left="806" textPosition="off" textSize="medium" textColor="" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="17">
+            <code>send {Shift Down}{Alt Down}{3}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="02ROSB" type="ahk" top="381" left="759" textPosition="off" textSize="medium" textColor="" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="18">
+            <code>send {Shift Down}{Alt Down}{2}{Alt Up}{Shift Up}</code>
+          </button>
+          <button name="01ROSB" type="ahk" top="381" left="714" textPosition="off" textSize="medium" textColor="" width="45" height="50" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="19">
+            <code>send {Shift Down}{Alt Down}{1}{Alt Up}{Shift Up}</code>
+          </button>
         </buttons>
       </device>
       <device name="3MP4">
         <buttons>
-          <button name="06RWRLabel" type="label" top="4" left="11" textPosition="on" textSize="medium" textColor="Black" width="263" height="263" delay="no" buttonPack="canopyEjectSeat" buttonFile="canopyEjectSeat/RWR.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="23">
+          <button name="06RWRLabel" type="label" top="4" left="11" textPosition="on" textSize="medium" textColor="Black" width="263" height="263" delay="no" buttonPack="canopyEjectSeat" buttonFile="canopyEjectSeat/RWR.png" altButtonFile="" linkActivity="" repeat="-1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="43">
             <code>
             </code>
           </button>
-          <button name="07RWRViewer" type="web" top="4" left="11" textPosition="off" textSize="medium" textColor="Black" width="263" height="263" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="58">
+          <button name="07RWRViewer" type="web" top="4" left="11" textPosition="off" textSize="medium" textColor="Black" width="263" height="263" delay="no" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="5" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="78">
             <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/rwr" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
           </button>
         </buttons>
       </device>
       <device name="0MainButtons">
         <buttons>
-          <button name="03MFDPanel" type="link" top="304" left="759" textPosition="off" textSize="medium" textColor="" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/03MFDPanelD.png" altButtonFile="" linkActivity="CybPit^03MFDPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+          <button name="03MFDPanel" type="link" top="304" left="759" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/03MFDPanelD.png" altButtonFile="MainButtons/03MFDPanel.png" linkActivity="CybPit^03MFDPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="20">
             <code>
             </code>
           </button>
-          <button name="02CenterUpPanel" type="link" top="304" left="20" textPosition="off" textSize="medium" textColor="" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanelD.png" altButtonFile="" linkActivity="CybPit^02ICPPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="1">
+          <button name="02CenterUpPanel" type="link" top="304" left="20" textPosition="off" textSize="medium" textColor="Black" width="250" height="64" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/02ICPPanelD.png" altButtonFile="MainButtons/02ICPPanel.png" linkActivity="CybPit^02ICPPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="21">
             <code>
             </code>
           </button>
