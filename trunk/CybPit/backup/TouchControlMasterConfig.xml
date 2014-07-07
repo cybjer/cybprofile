@@ -558,6 +558,10 @@ Send {j up}{Ctrl Up}</code>
           <code>
           </code>
         </button>
+        <button name="05MainPanel" type="link" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="CybPit^05MainPanel" repeat="1" interval="" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>
+          </code>
+        </button>
       </buttons>
     </device>
     <device name="2IP1">
