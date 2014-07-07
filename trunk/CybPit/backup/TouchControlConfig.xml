@@ -280,7 +280,7 @@ Send {j up}{Ctrl Up}</code>
       </device>
       <device name="0MainButtons">
         <buttons>
-          <button name="05MainPanel" type="link" top="162" left="300" textPosition="on" textSize="medium" textColor="" width="50" height="50" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/5MainBtn.png" altButtonFile="" linkActivity="CybPit^05MainPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
+          <button name="05MainPanel" type="link" top="710" left="531" textPosition="on" textSize="medium" textColor="Black" width="50" height="50" delay="no" buttonPack="MainButtons" buttonFile="MainButtons/5MainBtn.png" altButtonFile="" linkActivity="CybPit^05MainPanel" repeat="1" interval="" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="0">
             <code>
             </code>
           </button>
@@ -1050,7 +1050,7 @@ send {Del up}{Alt Up}{Shift Up}</code>
         </buttons>
       </device>
     </activity>
-    <activity name="05MainPanel" location="CybPit" active="yes" mousekeyboard="no" index="0" deviceType="1" background="5MainPanel.png" image="touchcontrol_remote_CybPit^05MainPanel.jpg">
+    <activity name="05MainPanel" location="CybPit" active="no" mousekeyboard="no" index="0" deviceType="1" background="5MainPanel.png" image="touchcontrol_remote_CybPit^05MainPanel.jpg">
       <device name="2IP1">
         <buttons>
           <button name="10AltPressInc" type="ahk" top="700" left="517" textPosition="off" textSize="medium" textColor="Black" width="42" height="58" delay="no" buttonPack="" buttonFile="" altButtonFile="^no_animation^" linkActivity="" repeat="0" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="72">
