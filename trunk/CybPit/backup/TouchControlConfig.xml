@@ -1020,7 +1020,7 @@ send {Del up}{Alt Up}{Shift Up}</code>
             <code>E:\Program Files (x86)\Falcon BMS 4.32\Launcher.exe</code>
           </button>
           <button name="02MFDExtractor" type="cmd" top="699" left="137" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="canopyEjectSeat" buttonFile="canopyEjectSeat/MFDExtractor.png" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="12">
-            <code>C:\Program Files (x86)\Falcon MFD Extractor\MFDExtractor.exe</code>
+            <code>C:\Program Files (x86)\CybPitServer\FalconMFDServer.exe</code>
           </button>
           <button name="01HeadTracker" type="cmd" top="699" left="34" textPosition="off" textSize="medium" textColor="Black" width="58" height="58" delay="no" buttonPack="canopyEjectSeat" buttonFile="canopyEjectSeat/freeTrack.png" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="0" autoexec="False" autoexit="False" autoresume="False" icon="" touchTip="False" index="13">
             <code>E:\Program Files (x86)\FreeTrack\FreeTrack.exe</code>
