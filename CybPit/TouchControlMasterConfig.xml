@@ -1588,7 +1588,7 @@ send {PgUp up}{Alt Up}{Shift Up}</code>
           <code>E:\Program Files (x86)\FreeTrack\FreeTrack.exe</code>
         </button>
         <button name="02MFDExtractor" type="cmd" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>C:\Program Files (x86)\Falcon MFD Extractor\MFDExtractor.exe</code>
+          <code>C:\Program Files (x86)\CybPitServer\FalconMFDServer.exe</code>
         </button>
         <button name="FalconBMS" type="cmd" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>E:\Program Files (x86)\Falcon BMS 4.32\Launcher.exe</code>
