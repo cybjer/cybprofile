@@ -1165,10 +1165,13 @@ send {Shift up}{F1 up}</code>
           </code>
         </button>
         <button name="03HSIView" type="web" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/hsi" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
+          <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8085/hsi" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
         </button>
         <button name="04TachometerView" type="web" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/tachometer" mce_src="%touchcontrolserver/grabber%" style="width:60%;height:60%"/&gt;&lt;/body&gt;</code>
+          <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8085/tachometer" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
+        </button>
+        <button name="05AltimeterView" type="web" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/altimeter" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
         </button>
       </buttons>
     </device>
@@ -1339,7 +1342,7 @@ send {e Up}{Ctrl Up}</code>
           </code>
         </button>
         <button name="06RWRViewer" type="web" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/rwr" mce_src="%touchcontrolserver/grabber%" style="width:82%;height:82%"/&gt;&lt;/body&gt;</code>
+          <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/rwr" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
         </button>
         <button name="07RWRViewer" type="web" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/rwr" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
