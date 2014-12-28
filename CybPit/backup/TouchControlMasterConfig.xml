@@ -562,6 +562,9 @@ Send {j up}{Ctrl Up}</code>
           <code>
           </code>
         </button>
+        <button name="NF" type="mac" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code />
+        </button>
       </buttons>
     </device>
     <device name="2IP1">
@@ -695,22 +698,22 @@ Send {j up}{Ctrl Up}</code>
         <button name="07HSIGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>1:ahk&lt;:2IP1^07HSITcn|2:ahk&lt;:2IP1^07HSIILSNav|3:ahk&lt;:2IP1^07HSIILSTcn|4:ahk&lt;:2IP1^07HSINav</code>
         </button>
-        <button name="08HSICourseInc" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="08HSICourseInc" type="ahk+" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.10" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Ctrl Down}{Alt Down}{b}{Alt Up}{Ctrl Up}</code>
         </button>
-        <button name="08HSICourseDec" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="08HSICourseDec" type="ahk+" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.10" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Ctrl Down}{Alt Down}{v}{Alt Up}{Ctrl Up}</code>
         </button>
-        <button name="09HSIHeadingInc" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="09HSIHeadingInc" type="ahk+" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.10" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Ctrl Down}{Alt Down}{m}{Alt Up}{Ctrl Up}</code>
         </button>
-        <button name="09HSIHeadingDec" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="09HSIHeadingDec" type="ahk+" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.10" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send  {Ctrl Down}{Alt Down}{n}{Alt Up}{Ctrl Up}</code>
         </button>
-        <button name="10AltPressInc" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="10AltPressInc" type="ahk+" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.10" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Ctrl Down}{q}{Ctrl Up}{Shift Up}</code>
         </button>
-        <button name="10AltPressDec" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="10AltPressDec" type="ahk+" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.10" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Ctrl Down}{w}{Ctrl Up}{Shift Up}</code>
         </button>
         <button name="11FuelSwitchNorm" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
@@ -1165,13 +1168,16 @@ send {Shift up}{F1 up}</code>
           </code>
         </button>
         <button name="03HSIView" type="web" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8085/hsi" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
+          <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/hsi" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
         </button>
         <button name="04TachometerView" type="web" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8085/tachometer" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
+          <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/tachometer" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
         </button>
         <button name="05AltimeterView" type="web" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/altimeter" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
+        </button>
+        <button name="06SpeedBreak" type="web" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1.0" interval="5" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+          <code>&lt;body style="margin:0px"&gt;&lt;img src="http://192.168.1.77:8080/sbreak" mce_src="%touchcontrolserver/grabber%" style="width:100%;height:100%"/&gt;&lt;/body&gt;</code>
         </button>
       </buttons>
     </device>
@@ -1591,7 +1597,7 @@ send {PgUp up}{Alt Up}{Shift Up}</code>
           <code>E:\Program Files (x86)\FreeTrack\FreeTrack.exe</code>
         </button>
         <button name="02MFDExtractor" type="cmd" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
-          <code>C:\Program Files (x86)\CybPitServer\FalconMFDServer.exe</code>
+          <code>C:\Program Files (x86)\CybPitServer\Debug\CybPitServer.exe</code>
         </button>
         <button name="FalconBMS" type="cmd" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>E:\Program Files (x86)\Falcon BMS 4.32\Launcher.exe</code>
