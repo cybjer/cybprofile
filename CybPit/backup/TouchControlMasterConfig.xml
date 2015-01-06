@@ -743,15 +743,15 @@ Send {j up}{Ctrl Up}</code>
         <button name="11FuelSwitchGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>1:ahk&lt;:2IP1^11FuelSwitchResv|2:ahk&lt;:2IP1^11FuelSwitchCenterExt|3:ahk&lt;:2IP1^11FuelSwitchNorm|4:ahk&lt;:2IP1^11FuelSwitchWingInt|7:ahk&lt;:2IP1^11FuelSwitchWingExt</code>
         </button>
-        <button name="11FuelSwitchTest" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="11FuelSwitchTest" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Ctrl Down}{Alt Down}{F4}{Alt Up}{Ctrl Up}{Shift Up}</code>
           <script>return '11FuelSwitchLabel[@]switchAndKnob/knob3LeftDown.png'</script>
         </button>
-        <button name="12FuelTransNorm" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="12FuelTransNorm" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Ctrl Down}{Alt Down}{F8}{Alt Up}{Ctrl Up}{Shift Up}</code>
           <script>return '12FuelTransLabel[@]switchAndKnob/swRedUp.png'</script>
         </button>
-        <button name="12FuelTransWing" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="12FuelTransWing" type="ahk&lt;" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{Ctrl Down}{Alt Down}{F9}{Alt Up}{Ctrl Up}{Shift Up}</code>
           <script>return '12FuelTransLabel[@]switchAndKnob/swRedDown.png'</script>
         </button>
@@ -762,10 +762,10 @@ Send {j up}{Ctrl Up}</code>
         <button name="12FuelTransGP" type="gp" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>1:ahk&lt;:2IP1^12FuelTransNorm|2:ahk&lt;:2IP1^12FuelTransWing</code>
         </button>
-        <button name="13ExtinguishMasterCaution" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="13ExtinguishMasterCaution" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {F10}</code>
         </button>
-        <button name="14CenterTracker" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="1" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
+        <button name="14CenterTracker" type="ahk" top="" left="" textPosition="" textSize="" textColor="" width="" height="" delay="" buttonPack="" buttonFile="" altButtonFile="" linkActivity="" repeat="0" interval="0.1" rotation="" autoexec="" autoexit="" autoresume="" icon="" text="" touchTip="">
           <code>send {Shift Down}{F1 down}
 sleep 200
 send {Shift up}{F1 up}</code>
