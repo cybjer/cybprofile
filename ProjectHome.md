@@ -1,0 +1,1 @@
+Perfil virtual para jugar
